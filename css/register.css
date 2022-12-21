@@ -1,0 +1,236 @@
+header#header {
+    display: none;
+}
+footer {
+    display: none;
+}
+.modal-sec-img {
+    position: relative;
+    padding-right: 0;
+}
+.logincontent {
+    padding: 0 6rem;
+}
+.img-txt-contents {
+    margin-bottom: 4rem;
+}
+/* .authlogo {
+    position: absolute;
+    top: -5rem;
+    left: 0;
+}
+
+.img-txt-contents {
+    position: relative;
+} */
+.img-txt-content {
+    position: absolute;
+    top: 10px;
+    left: 24px;
+}
+section.register .form-start .form-group input#inputName {
+/* background: url(../img/emailicon.svg) no-repeat; */
+background-position: 10px ;
+padding-left: 40px;
+font-family: "poppins_r";
+}
+section.register .form-start .form-group input#inputpass{
+    /* background: url(../img/passwordicon.svg),url(../img/eyeicon.svg) ; */
+background-position: 10px,98% center ;
+padding-left: 40px;
+padding-right: 40px;
+background-repeat: no-repeat;
+font-family: "poppins_r";
+
+}
+section.register .form-start .form-group .form-control::placeholder{
+    color: #CFCCD2;
+}
+ .heading2 {
+    font-family: "bizantheum";
+    font-size: 50px;
+    color: #68482A;
+}
+.modal-heading 
+ p.para1 {
+    color: #666666;
+    margin: 1rem 0;
+    text-align: center;
+}
+section.register .form-group label.custom-check {
+    font-family: "poppins_m";
+    font-size: 13px;
+    padding-left: 2rem;
+}
+section.register .contactus-form-btn a {
+    color: #1F162C;
+    font-family: 'poppins_r';
+    font-size: 13px;
+    text-decoration: underline;
+}
+section.register .contactus-form-btn{
+    text-align: right;
+}
+section.register .modal-sec-img img.img-fluid.leftimg {
+    width: 100%;
+    height: 100vh;
+}
+section.register .custom-check:hover input~.checkmark {
+    background-color: #000;
+  }
+  
+  section.register .custom-check input:checked~.checkmark {
+    background-color: #000000;
+  }
+  
+  section.register  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  section.register .custom-check input:checked~.checkmark:after {
+    display: block;
+  }
+  
+  section.register .custom-check .checkmark:after {
+    left: 4px;
+    top: 0px;
+    width: 5px;
+    height: 10px;
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  section.register .contactus-form-btn {
+    text-align: right;
+  }
+  
+  /* label.custom-check {
+    font-size: 12px !important;
+    top: 10px;
+  } */
+  section.register .custom-check input:checked~.checkmark {
+    background-color: #000000;
+}
+section.register .checkmark {
+    position: absolute;
+    top: 6px;
+    left: 1rem;
+    height: 12px;
+    width: 12px;
+    background-color: #68482A;
+}
+section.register .form-group label.custom-check input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+}
+section.register .form-group.formbtn {
+    text-align: center;
+}
+section.register .dividers {
+    display: flex;
+    align-items: center;
+}
+
+section.register .dividers hr {
+    border-top: 1px solid #000;
+    width: 100%;
+    flex: 0 0 41%;
+}
+
+section.register .dividers span {
+    font-family: "poppins_r";
+    font-size: 15px;
+}
+section.register .loginsocial {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 1rem 0;
+}
+section.register .loginsocial a {
+    list-style: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+section.register .loginsocial a i {
+    color: #68482a;
+}
+section.register .signuptext {
+    text-align: center;
+    font-family: "poppins_r";
+    font-size: 14px;
+}
+section.register .signuptext a.signUpBtn {
+    color: #FD3E40;
+}
+section.register .form-start .form-group input#inputName ~ figure img.img-fluid.emailicon {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+section.register .form-start .form-group input#inputpass ~ figure img.img-fluid.passicon {
+    position: absolute;
+    left: 12px;
+    top: 12px;
+}
+section.register .formlogin {
+    position: relative;
+    margin-bottom: 1rem;
+}
+section.register .form-start .form-group input#inputpass ~ figure img.img-fluid.eyeicon {
+    position: absolute;
+    right: 12px;
+    top: 12px;
+}
+section.register .input-group>.custom-file:focus, .input-group>.custom-select:focus, .input-group>.form-control:focus {
+    z-index: unset;
+}
+section.register .form-start .form-group .form-control{
+    border-radius: 0;
+    padding-left: 40px;
+    border: 1px solid #B8AFAF;
+}
+section.register .form-start .form-group input#inputfName ~ figure img.img-fluid.usericon {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+section.register .form-start .form-group input#inputLName ~ figure img.img-fluid.usericon {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+section.register .form-start .form-group input#inputcNum ~ figure img.img-fluid.phoneicon {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+section.register .form-start .form-group input#inputzipcode ~ figure img.img-fluid.zipcodeicon {
+    position: absolute;
+    left: 24px;
+    top: 12px;
+}
+@media(min-width:1440px){
+    .modal-sec-img img.img-fluid.leftimg {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width:1440px){
+    .modal-sec-img img.img-fluid.leftimg {
+        width: 100%;
+        height: 100vh;
+    }
+}

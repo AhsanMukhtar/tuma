@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>tuma</title>
+    <!-- Site Title -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="img/header-logo.png" href="../img/header-logo.png">
+    <!-- Site Title -->
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <!-- Favicon -->
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Bootstrap CSS -->
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome CDN -->
+
+    <!-- Slick Slider CDN -->
+    <link rel="stylesheet" href="../slick/slick.css">
+    <link rel="stylesheet" href="../slick/slick-theme.css">
+    <!-- Slick Slider CDN -->
+
+    <!-- Anime.js CDN -->
+    <link rel="stylesheet" href="../css/animate.css">
+    <!-- Anime.js CDN -->
+
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+    <!-- Css Stylesheet -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/faq.css">
+</head>
+
+<body>
+
+    <!-- header start here -->
+    <header id="header">
+        <div class="container">
+            <div class="all-header-item">
+                <div class="nav-item">
+                    <div class="col-lg-2 ">
+                        <div class="menu-wrapper">
+                            <div class="menu-btn">
+                                <a class="btn-open" href="javascript:void(0)"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ">
+                        <div class="for-logo">
+                            <a href="home.html">
+                                <img src="../img/header-logo.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="side-num">
+                            <a role="button" onclick="$('.search-box').addClass('show')">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                </i>
+                            </a>
+                            <div class="cart-box">
+                                <a href="cart.html">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32">
+                                        <g id="Group_9510" data-name="Group 9510" transform="translate(-1242 -75)">
+                                            <path id="Icon_material-shopping-cart"
+                                                data-name="Icon material-shopping-cart"
+                                                d="M10.5,27a3,3,0,1,0,3,3A3,3,0,0,0,10.5,27ZM1.5,3V6h3L9.9,17.385,7.875,21.06A2.9,2.9,0,0,0,7.5,22.5a3.009,3.009,0,0,0,3,3h18v-3H11.13a.371.371,0,0,1-.375-.375l.045-.18L12.15,19.5H23.325a2.986,2.986,0,0,0,2.625-1.545L31.32,8.22a1.465,1.465,0,0,0,.18-.72A1.5,1.5,0,0,0,30,6H7.815L6.405,3Zm24,24a3,3,0,1,0,3,3A3,3,0,0,0,25.5,27Z"
+                                                transform="translate(1240.5 74)" fill="#fff" />
+                                            <circle id="Ellipse_75" data-name="Ellipse 75" cx="6" cy="6" r="6"
+                                                transform="translate(1264 75)" fill="red" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="profile-men login-avatar">
+                                <a href="login.html">
+                                    <img src="../img/login.svg" alt=""> <span>login</span>
+                                </a>
+                            </div>
+                            <!-- <div class="col-md-1"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="double-mane-bar">
+                            <div class="row">
+                                <div class="col-lg-2 ">
+                                    <div class="menu-wrapper">
+                                        <!-- <div class="menu-btn">
+                                            <a class="btn-open" href="javascript:void(0)"></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 ">
+                                    <div class="for-logo">
+                                        <a href="home.html">
+                                            <img src="../img/header-logo.png" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <div class="side-num">
+                                        <a role="button" onclick="$('.search-box').addClass('show')">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                            </i>
+                                        </a>
+                                        <div class="cart-box">
+                                            <a href="cart.html">
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32"
+                                                    viewBox="0 0 34 32">
+                                                    <g id="Group_9510" data-name="Group 9510"
+                                                        transform="translate(-1242 -75)">
+                                                        <path id="Icon_material-shopping-cart"
+                                                            data-name="Icon material-shopping-cart"
+                                                            d="M10.5,27a3,3,0,1,0,3,3A3,3,0,0,0,10.5,27ZM1.5,3V6h3L9.9,17.385,7.875,21.06A2.9,2.9,0,0,0,7.5,22.5a3.009,3.009,0,0,0,3,3h18v-3H11.13a.371.371,0,0,1-.375-.375l.045-.18L12.15,19.5H23.325a2.986,2.986,0,0,0,2.625-1.545L31.32,8.22a1.465,1.465,0,0,0,.18-.72A1.5,1.5,0,0,0,30,6H7.815L6.405,3Zm24,24a3,3,0,1,0,3,3A3,3,0,0,0,25.5,27Z"
+                                                            transform="translate(1240.5 74)" fill="#fff" />
+                                                        <circle id="Ellipse_75" data-name="Ellipse 75" cx="6" cy="6"
+                                                            r="6" transform="translate(1264 75)" fill="red" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="profile-men1">
+                                            <a href="profile.html">
+                                                <img src="../img/login.svg" alt=""> <span>login</span>
+                                            </a>
+
+                                        </div>
+                                        <!-- <div class="col-md-1"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="weekendsale.html">Category</a></li>
+                            <li><a href="product-category.html">Our Store</a></li>
+                            <li><a href="conatct.html">Contact Us</a></li>
+                        </ul>
+                        <div class="footer-bottm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="footer-icons">
+                                        <div class="icon-fb">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </div>
+                                        <div class="icon-fb">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </div>
+                                        <div class="icon-fb">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="icon-fb">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="footer-copyright-links">
+                                        <li class="contact"><a href="faq.html">faq's</a></li>
+                                        <li class="contact"><a href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li class="contact"><a href="cookie-policy.html">Cookie Policy</a></li>
+                                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="search-box">
+        <div class="container">
+            <div class="cancel" onclick="$('.search-box').removeClass('show');">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                    </path>
+                </svg>
+            </div>
+            <form method="get" action="">
+                <div class="form-group">
+                    <input type="text" name="search" class="form-control" placeholder="Search Product...">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <!-- header end here -->
+    <style>
+        /* header#header {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 1rem;
+            z-index: 9;
+        } */
+    </style>
+
+
+    <!--faqs start Here -->
+    <section class="faqs-sec">
+        <div class="container">
+            <div class="faq-accordions">
+                <div class="faq-heading">
+                    <div class="main_heading text-center">
+                        <h2>Faq's</h2>
+                    </div>
+                    <div class="faq-box">
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+                            <div class="accordion-item faq-card">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                        aria-controls="flush-collapseOne">
+                                        Lorem Ipsum is simply dummy text of the printing?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id delectus fugit
+                                            cupiditate minima saepe dolorem consequatur tempore, ullam alias qui?</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-card">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                        aria-controls="flush-collapseTwo">
+                                        Lorem Ipsum is simply dummy text of the printing?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+                                            consequuntur
+                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+                                            consequuntur
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-card">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                        aria-controls="flush-collapseThree">
+                                        Lorem Ipsum is simply dummy text of the printing?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore,
+                                            consequuntur!
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus, et?
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-card">
+                                <h2 class="accordion-header" id="flush-headingfour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapsefour" aria-expanded="false"
+                                        aria-controls="flush-collapsefour">
+                                        Lorem Ipsum is simply dummy text of the printing?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapsefour" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingfour" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ducimus
+                                            beatae sint omnis minima tempora fuga quos unde. Ipsum, quia!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item faq-card last-faq">
+                                <h2 class="accordion-header" id="flush-headingfive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#flush-collapsefive" aria-expanded="false"
+                                        aria-controls="flush-collapsefive">
+                                        Lorem Ipsum is simply dummy text of the printing?
+                                    </button>
+                                </h2>
+                                <div id="flush-collapsefive" class="accordion-collapse collapse"
+                                    aria-labelledby="flush-headingfive" data-bs-parent="#accordionFlushExample">
+                                    <div class="accordion-body">
+                                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione ipsum ipsa
+                                            obcaecati in harum ex eaque voluptatibus! Dolorem, vel facere?</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!--faqs end Here -->
+
+    <!-- stayintouch start here -->
+    <section class="stayintouchsec">
+        <div class="container">
+            <div class="stay-banner-content">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="banner-girl-img">
+                            <img src="../img/staygirl1.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="all-stay-banner">
+                            <div class="main_heading">
+                                <h2>stay in touch</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic aliquid deserunt
+                                    repellat blanditiis.</p>
+                            </div>
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control" placeholder="Enter Your Email"
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn btn btn-dark" type="button" id="button-addon2">Subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="banner-girl-img">
+                            <img src="../img/staygirl2.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- stayintouch end here -->
+
+    <!-- Footer Start Here -->
+    <footer>
+        <div class="uper-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="all-footer-content">
+                            <div class="footer-logo">
+                                <a href="home.html">
+                                    <img src="../img/footer-logo.png" alt="" class="img-fluid">
+                                </a>
+                            </div>
+                            <div class="about-footer">
+                                <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Reprehenderit, labore.
+                                    Lorem
+                                    <br>ipsum dolor sit amet. Lorem ipsum dolor sit.
+                                </p>
+                            </div>
+                            <div class="footer-icons">
+                                <div class="icon">
+                                    <div class="icon-fb">
+                                        <i class="fa fa-facebook-f"></i>
+                                    </div>
+                                    <div class="icon-fb">
+                                        <i class="fa fa-youtube-play"></i>
+                                    </div>
+                                    <div class="icon-fb">
+                                        <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="icon-fb">
+                                        <i class="fa fa-twitter" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-links">
+                                <li class="home"><a href="home.html">Home</a></li>
+                                <li class="home"><a href="about.html">About us</a></li>
+                                <li class="home"><a href="weekendsale.html">Category</a></li>
+                                <li class="home"><a href="product-category.html">Our Store</a></li>
+                                <li><a href="testimonial.html">Testimonial</a></li>
+                            </div>
+                        </div>
+                        <div class="footer-bottm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="copyright">
+                                        <p>© Tumareliye 2022. All Right Reserved.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="footer-copyright-links">
+                                        <li class="contact"><a href="conatct.html">Contact</a></li>
+                                        <li class="contact"><a href="profile.html#delivery">Delivery</a></li>
+                                        <li><a href="faq.html">faq</a></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap CDN -->
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/popper.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="../https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <!-- boostrap js -->
+    <script src="../https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- boostrap js -->
+    <!-- Main Js -->
+    <script src="../js/main.js"></script>
+    <!-- Main Js -->
+
+    <!-- Slick Slider CDN -->
+    <script src="../slick/slick.min.js"></script>
+    <!-- Slick Slider CDN -->
+
+    <!-- Wow Js CDN -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- Wow Js CDN -->
+    <script>
+        $(document).ready(function () {
+
+            $(".menu-btn a").click(function () {
+                $(".overlay").fadeToggle(200);
+                $(this).toggleClass('btn-open').toggleClass('btn-close');
+            });
+
+            $('.overlay').on('click', function () {
+                $(".overlay").fadeToggle(200);
+                $(".menu-btn a").toggleClass('btn-open').toggleClass('btn-close');
+            });
+
+            $('.menu a').on('click', function () {
+                $(".overlay").fadeToggle(200);
+                $(".menu-btn a").toggleClass('btn-open').toggleClass('btn-close');
+            });
+
+        });
+        // $(document).ready(function() {
+        //     $("input[name=action]").change(function() {
+        //         var test = $(this).val();
+        //         $(".show-hide").hide();
+        //         $("#" + test).show();
+        //     });
+        // });
+
+        // select input
+        $(document).ready(function () {
+            $('#slelectID').on('change', function () {
+
+                if (this.value == 'showthis') {
+                    $(".box").css("display", "block");
+                } else {
+                    $(".box").hide();
+                }
+            });
+        });
+        // select
+        $("select#slelectstates11").on('click', function (event) {
+            $(".maindropdown_dv11").toggleClass("transform");
+        });
+        // heading
+        window.onload = function () {
+            animateRandom();
+        };
+
+        function animateRandom() {
+            var a = document.getElementsByClassName('random');
+            for (var i = 0; i < a.length; i++) {
+                var $this = a[i];
+                var letter = $this.innerHTML;
+                letter = letter.trim();
+                var delay = 70;
+                var delayArray = new Array;
+                var randLetter = new Array;
+                for (j = 0; j < letter.length; j++) {
+                    while (1) {
+                        var random = getRandomInt(0, (letter.length - 1));
+                        if (delayArray.indexOf(random) == -1)
+                            break;
+                    }
+                    delayArray[j] = random;
+                }
+                for (l = 0; l < delayArray.length; l++) {
+                    var str = '';
+                    var index = delayArray[l];
+                    if (letter[index] != ' ') {
+                        str = '<span style="animation-delay:' + delay + 'ms; -moz-animation-delay:' + delay +
+                            'ms; -webkit-animation-delay:' + delay + 'ms; ">' + letter[index] + '</span>';
+                        randLetter[index] = str;
+                    } else
+                        randLetter[index] = letter[index];
+                    delay += 30;
+                }
+                randLetter = randLetter.join("");
+                $this.innerHTML = randLetter;
+            }
+        }
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        $('.checkbox').change(function () {
+            if ($(this).is(':checked')) {
+                $(".form-group.check-wrapper").css("display", "block");
+            } else {
+                $(".form-group.check-wrapper").css("display", "none");
+            }
+        });
+        // radio type
+        $('#r11').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+
+        $('#r12').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+        $('#r13').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+        $('#r14').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+        $(".card-link").click(function (e) {
+            var menuItem = $(this);
+
+            if (menuItem.attr("aria-expanded") === "false") {
+                $("button.default").css("display", "none");
+            } else if (menuItem.attr("aria-expanded") === "true") {
+                $(".btndefault").css("display", "block");
+            }
+        });
+        // togglebtn
+        $(document).ready(function () {
+            $(".hideshowbtn").click(function () {
+                $(".form-wrapper").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".inputtexthide").click(function () {
+                $(".form-group-btn").toggle();
+            });
+        });
+        // pagination
+        $(document).ready(function () {
+            $(".next").click(function () {
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .next()
+                    .addClass("active");
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .prev()
+                    .removeClass("active");
+            });
+            $(".prev").click(function () {
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .prev()
+                    .addClass("active");
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .next()
+                    .removeClass("active");
+            });
+        });
+    </script>
+    <script>
+        const targetDiv = document.getElementById("newpost");
+        const targetDiv1 = document.getElementById("newpost1");
+        const btn = document.getElementById("button");
+        btn.onclick = function () {
+            if (targetDiv.style.display !== "none") {
+                targetDiv.style.display = "block";
+                targetDiv1.style.display = "none";
+            } else {
+                targetDiv.style.display = "none";
+
+            }
+        }
+        // password
+        var myInput = document.getElementById('password'),
+            myIcon = document.getElementById('icon');
+        myInput.onfocus = function () {
+            myIcon.style.right = '0px'
+        }
+        myInput.onblur = function () {
+            myIcon.style.right = '0px'
+        }
+        myIcon.onclick = function () {
+            if (myIcon.classList.contains('fa-eye')) {
+                this.classList.toggle('fa-eye-slash');
+                this.classList.toggle('fa-eye');
+                myInput.setAttribute('type', 'text');
+            } else {
+                myInput.setAttribute('type', 'password');
+                this.classList.toggle('fa-eye');
+                this.classList.toggle('fa-eye-slash');
+            };
+        }
+        // password
+        var myInput3 = document.getElementById('password3'),
+            myIcon3 = document.getElementById('icon3');
+        myInput3.onfocus = function () {
+            myIcon3.style.right = '0px'
+        }
+        myInput3.onblur = function () {
+            myIcon3.style.right = '0px'
+        }
+        myIcon3.onclick = function () {
+            if (myIcon3.classList.contains('fa-eye')) {
+                this.classList.toggle('fa-eye-slash');
+                this.classList.toggle('fa-eye');
+                myInput3.setAttribute('type', 'text');
+            } else {
+                myInput3.setAttribute('type', 'password');
+                this.classList.toggle('fa-eye');
+                this.classList.toggle('fa-eye-slash');
+            };
+        }
+    </script>
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+    <script>
+        $('.category-card').slick({
+            dots: true,
+            arrows: true,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 3,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 30,
+            slidesPerGroup: 3,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+
+        $('.photo').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+        // password
+        var myInput4 = document.getElementById('password4'),
+            myIcon4 = document.getElementById('icon4');
+        myInput4.onfocus = function () {
+            myIcon4.style.right = '0px'
+        }
+        myInput4.onblur = function () {
+            myIcon4.style.right = '0px'
+        }
+        myIcon4.onclick = function () {
+            if (myIcon4.classList.contains('fa-eye')) {
+                this.classList.toggle('fa-eye-slash');
+                this.classList.toggle('fa-eye');
+                myInput4.setAttribute('type', 'text');
+            } else {
+                myInput4.setAttribute('type', 'password');
+                this.classList.toggle('fa-eye');
+                this.classList.toggle('fa-eye-slash');
+            };
+        }
+        // password
+        var myInput5 = document.getElementById('password5'),
+            myIcon5 = document.getElementById('icon5');
+        myInput5.onfocus = function () {
+            myIcon5.style.right = '0px'
+        }
+        myInput5.onblur = function () {
+            myIcon5.style.right = '0px'
+        }
+        myIcon5.onclick = function () {
+            if (myIcon5.classList.contains('fa-eye')) {
+                this.classList.toggle('fa-eye-slash');
+                this.classList.toggle('fa-eye');
+                myInput5.setAttribute('type', 'text');
+            } else {
+                myInput5.setAttribute('type', 'password');
+                this.classList.toggle('fa-eye');
+                this.classList.toggle('fa-eye-slash');
+            };
+        }
+        // password
+        var myInput6 = document.getElementById('password6'),
+            myIcon6 = document.getElementById('icon6');
+        myInput6.onfocus = function () {
+            myIcon6.style.right = '0px'
+        }
+        myInput6.onblur = function () {
+            myIcon6.style.right = '0px'
+        }
+        myIcon6.onclick = function () {
+            if (myIcon6.classList.contains('fa-eye')) {
+                this.classList.toggle('fa-eye-slash');
+                this.classList.toggle('fa-eye');
+                myInput6.setAttribute('type', 'text');
+            } else {
+                myInput6.setAttribute('type', 'password');
+                this.classList.toggle('fa-eye');
+                this.classList.toggle('fa-eye-slash');
+            };
+        }
+    </script>
+    <script>
+        // Card's slider
+
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 768,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 2
+                    }
+                },
+                {
+                    breakpoint: 480,
+                    settings: {
+                        arrows: false,
+                        centerMode: true,
+                        centerPadding: '40px',
+                        slidesToShow: 1
+                    }
+                }
+            ]
+        });
+    </script>
+    <script>
+        function ratingStar(star) {
+            star.click(function () {
+                var stars = $('.ratingW').find('li')
+                stars.removeClass('on');
+                var thisIndex = $(this).parents('li').index();
+                for (var i = 0; i <= thisIndex; i++) {
+                    stars.eq(i).addClass('on');
+                }
+                putScoreNow(thisIndex + 1);
+            });
+        }
+
+        function putScoreNow(i) {
+            $('#ratingField').val(i);
+            ratingToWord(i);
+        }
+
+        $(function () {
+            if ($('.ratingW').length > 0) {
+                ratingStar($('.ratingW li a'));
+            }
+        });
+
+        function ratingToWord(rating) {
+            if (rating == 1) {
+                $("#ratingTxt").val('Bad');
+            }
+
+            if (rating == 2) {
+                $("#ratingTxt").val('Poor');
+            }
+
+            if (rating == 3) {
+                $("#ratingTxt").val('Fair');
+            }
+
+            if (rating == 4) {
+                $("#ratingTxt").val('Good');
+            }
+
+            if (rating == 5) {
+                $("#ratingTxt").val('Excellent');
+            }
+        }
+    </script>
+
+    <script>
+        $('.product-cart-details').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 1,
+            slidesToScroll: 2,
+            responsive: [{
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+                // You can unslick at a given breakpoint now by adding:
+                // settings: "unslick"
+                // instead of a settings object
+            ]
+        });
+// // slick slider
+// $('.slider-main').slick({
+//     slidesToShow: 1,
+//     arrows: false,
+//     asNavFor: '.slider-nav',
+//     vertical: true,
+//     autoplay: false,
+//     verticalSwiping: true,
+//     centerMode: true
+// });
+
+// $('.slider-nav').slick({
+//     slidesToShow: 4,
+//     asNavFor: '.slider-main',
+//     vertical: true,
+//     focusOnSelect: true,
+//     autoplay: false,
+//     centerMode: true
+// });
+// // slick slider
+    </script>
+
+</body>
+
+</html>

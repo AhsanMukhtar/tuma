@@ -1,0 +1,40 @@
+/* about_banner sec start here */
+
+section.about_banner {
+	padding: 50px 0;
+}
+section.about_banner .main_heading {
+	padding-top: 96px;
+}
+.main_heading {
+	text-align: center;
+	padding: 18px 0;
+	padding-top: 5rem;
+	margin-top: 50px;
+}
+p {
+	color: #6d6d6d;
+	font-family: "poppins_r";
+	font-size: 13px !important;
+}
+/* about_banner sec end here */
+/* aboutsec start here */
+.aboutus {
+	text-align: center;
+}
+/* aboutsec end here */
+/* mission-sec start here */
+section.mission-sec {
+	padding: 85px 0;
+}
+.mission-information p {
+	margin-bottom: 9px;
+}
+/* mission-sec end here */
+@media screen and (max-width: 580px) {
+	.main_heading {
+		text-align: center;
+		padding: 18px 0 !important;
+		margin-top: 10px;
+	}
+}

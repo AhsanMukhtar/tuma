@@ -1,0 +1,46 @@
+.hading-wrapper.text-center h2 {
+	font-size: 60px;
+	color: var(--first-color);
+	font-family: "bizantheum";
+	font-weight: 400;
+}
+.hading-wrapper.text-center {
+	margin: 69px 0 29px 0;
+}
+.send-wrapper {
+	border: 1px solid #68482a;
+	padding: 30px 10px;
+	text-align: center;
+	cursor: pointer;
+	margin: 50px 0 80px 0;
+}
+.hading-wrapper.text-center p {
+	color: #6d6d6d;
+	font-family: "poppins";
+	font-weight: 400;
+	font-size: 16px;
+}
+.send-wrapper:hover {
+	background: var(--first-color);
+}
+.send-wrapper:hover h4 {
+	color: #fff;
+}
+.send-wrapper:hover p {
+	color: #fff;
+}
+.send-wrapper h4 {
+	font-size: 30px;
+	color: var(--first-color);
+	font-family: "bizantheum";
+	font-weight: 400;
+}
+.send-wrapper p {
+	font-size: 16px;
+	color: var(--first-color);
+	font-family: "poppins";
+	font-weight: 400;
+}
+.shipping-mathod a:hover{
+	text-decoration: none;
+}

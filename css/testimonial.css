@@ -1,0 +1,133 @@
+section.testimonial-sec {
+    padding-top: 65px;
+    padding-bottom: 85px;
+}
+.main_heading {
+    text-align: center;
+}
+.eachdiv {
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  box-shadow: 5px 5px 20px #6d6b6b6b;
+  color: white;
+}
+.div1 {
+    background: #ECEEF0;
+    border: 1px solid #68482A;
+    /* grid-column: 1/3; */
+    /* grid-row: 1/2; */
+    background-image: url(../img/arrow.png);
+    background-repeat: no-repeat;
+    background-position: top 27px right 39px;
+    /* height: 227px; */
+    border-radius: 0;
+    position: relative;
+    margin: 0 10px;
+}
+
+.userdetails {
+  display: flex;
+}
+/* .imgbox {
+  margin-right: 1rem;
+}
+.imgbox img {
+  border-radius: 50%;
+  width: 2rem;
+  border: 2px solid #cec5c5;
+} */
+.detbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.review p {
+    color: #6D6D6D;
+    margin: 0;
+    font-size: 10px;
+}
+
+.detbox .name {
+    color: #68482A;
+    font-family: "bizantheum";
+    font-size: 17px;
+    line-height: unset;
+    margin: 0;
+}
+
+.detbox .designation {
+    color: #373737;
+}
+.testimonail-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.star-review {
+    background-image: url(../img/review-back.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 110px;
+    padding: 0 9px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.star-review .fa {
+    color: #E19806;
+}
+.eachdiv{
+    margin: 20px 10px;
+}
+/* pagination  */
+ul.pagination.text-center {
+    justify-content: center;
+}
+
+li.page-item {
+    margin: 0 5px;
+    background: #FFFFFF;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+a.page-link {
+    color: #AAAAAA;
+    font-family: "Poppins";
+    font-weight: 500;
+}
+
+.page-item.active .page-link {
+    background-color: #68482A !important;
+    z-index: 1;
+    color: #fff;
+    border-color: transparent !important;
+}
+.review-page-change{
+    padding: 20px 0;
+}
+@media only screen and (max-width: 1000px) {
+  .innerdiv {
+    transform: scale(0.7);
+  }
+}
+@media only screen and (max-width: 800px) {
+  .innerdiv {
+    transform: scale(0.6);
+  }
+}
+@media only screen and (max-width: 600px) {
+  .div1 {
+    background-position-x: 10rem;
+  }
+  .innerdiv {
+    display: flex;
+    flex-direction: column;
+    transform: scale(1);
+    margin: 2rem;
+    margin-bottom: 5rem;
+  }
+  .attribution {
+    position: relative;
+  }
+}
