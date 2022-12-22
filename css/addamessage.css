@@ -20,13 +20,29 @@
 	background: #f8f8f8;
 	border: 0;
 	margin-top: 1rem;
-	padding: 20px 0;
+	padding: 20px 20px;
 	color: #68482a;
 	font-family: "poppins_m";
 	font-size: 13px;
 	cursor: pointer;
 }
 .messagebuttons button.messagebtn:focus {
+	outline: unset;
+}
+.largerimage{
+	display: none;
+}
+.messagebuttons a.messagebtn {
+	background: #f8f8f8;
+	border: 0;
+	margin-top: 1rem;
+	padding: 20px 0;
+	color: #68482a;
+	font-family: "poppins_m";
+	font-size: 13px;
+	cursor: pointer;
+}
+.messagebuttons a.messagebtn:focus {
 	outline: unset;
 }
 .addamessage-sec {
@@ -44,6 +60,18 @@ section.addamessage_page .modal-dialog {
 	font-family: "poppins_r";
 	font-size: 13px;
 	color: #a8a8a8;
+}
+.messagebuttons .messageimage {
+    background: #f8f8f8;
+    border: 0;
+    margin-top: 1rem;
+    padding: 20px;
+}
+
+.messagebuttons .messageimage img.largeimg {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
 }
 section.addamessage_page .modal-header button.btn-close:after {
 	color: #68482a !important;
@@ -223,8 +251,8 @@ div#edittextmodal {
 section.addamessage_page .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: white;
-    height: 455px;
+    background: #f8f8f8;
+    height: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -238,6 +266,29 @@ section.addamessage_page .swiper-slide {
     -webkit-align-items: center;
     align-items: center;
     flex-direction: column;
+    gap: 15px;
+}
+.messagebuttons button.messagebtn input {
+    background: #f8f8f8;
+    border: 0;
+    /* margin-top: 1rem; */
+    padding: 0 20px;
+    color: #68482a;
+    font-family: "poppins_m";
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    outline: 0;
+    width: 100%;
+    display: none;
+    border: 1px solid #68482A;
+    height: 4rem;
+    margin: 0;
+    color: #A8A8A8;
+    font-size: 13px;
+}
+.messagebuttons button.messagebtn input:checked {
+    display: block;
 }
 section.addamessage_page .swiper-slide img:not(:last-child) {
     margin-bottom: 10px;
