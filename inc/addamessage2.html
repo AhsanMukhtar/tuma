@@ -235,7 +235,7 @@
                             <button class="messagebtn selectmessage" data-bs-toggle="modal" data-bs-target="#edittextmodal" onclick="">
                                 
                                 <span id="messagetxt">Select Text</span>
-                                <input type="text" id="output" value="Select Text">
+                                <input type="text" id="output" value="">
                                 <!-- <span class="output"></span> -->
                             </button>
                             <button class="messagebtn" data-bs-toggle="modal" data-bs-target="#selectaudio">Select
@@ -576,7 +576,7 @@
                                                     
                                                     <td class="last-line">
 
-                                       <a href="audiomodal.html" class="audio-shows">  <i class="fa fa-eye" aria-hidden="true"></i></a>
+                                       <a href="audiomodal.html" class="audio-shows"> View</a>
                                                         <label for="fileinput"
                                                             onclick="document.getElementById('selectedFile').click();"
                                                             id="buttonImage">Use
@@ -1655,6 +1655,9 @@
                  if (input.value) {
                    input.style.backgroundColor = "#fff";
                    input.style.display = "block";
+                 }
+                 else{
+                    input.style.display = "none";
                  }
 
 			}
