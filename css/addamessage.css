@@ -325,3 +325,12 @@ input#fakeInput {
 .modal-body .table-responsive table.table tbody tr td:nth-child(5) {
     min-width: 130px;
 }
+/*  */
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+a.audio-shows {
+    color: #68482a;
+    margin-right: 10px;
+}

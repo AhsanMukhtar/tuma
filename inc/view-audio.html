@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>tuma</title>
+        <!-- Site Title -->
+    
+        <!-- Favicon -->
+        <link rel="icon" type="img/header-logo.png" href="../img/header-logo.png">
+        <!-- Site Title -->
+    
+        <!-- Favicon -->
+        <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+        <!-- Favicon -->
+    
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <!-- Bootstrap CSS -->
+    
+        <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Font Awesome CDN -->
+    
+        <!-- Slick Slider CDN -->
+        <link rel="stylesheet" href="../slick/slick.css">
+        <link rel="stylesheet" href="../slick/slick-theme.css">
+        <!-- Slick Slider CDN -->
+    
+        <!-- Anime.js CDN -->
+        <link rel="stylesheet" href="../css/animate.css">
+        <!-- Anime.js CDN -->
+    
+        <!-- Css Stylesheet -->
+        <link rel="stylesheet" href="../css/style.css">
+        <!-- Css Stylesheet -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+        <link rel="stylesheet" href="../css/audio-modal.css">
+        <link rel="stylesheet" href="../css/addamessage.css">
+    </head>
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="all-header-item">
+                <div class="nav-item">
+                    <div class="col-lg-2 ">
+                        <div class="menu-wrapper">
+                            <div class="menu-btn">
+                                <a class="btn-open" href="javascript:void(0)"></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-7 ">
+                        <div class="for-logo">
+                            <a href="home.html">
+                                <img src="../img/header-logo.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 ">
+                        <div class="side-num">
+                            <a role="button" onclick="$('.search-box').addClass('show')">
+                                <i class="fa fa-search" aria-hidden="true"></i>
+                                </i>
+                            </a>
+                            <div class="cart-box">
+                                <a href="cart.html">
+
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32" viewBox="0 0 34 32">
+                                        <g id="Group_9510" data-name="Group 9510" transform="translate(-1242 -75)">
+                                            <path id="Icon_material-shopping-cart"
+                                                data-name="Icon material-shopping-cart"
+                                                d="M10.5,27a3,3,0,1,0,3,3A3,3,0,0,0,10.5,27ZM1.5,3V6h3L9.9,17.385,7.875,21.06A2.9,2.9,0,0,0,7.5,22.5a3.009,3.009,0,0,0,3,3h18v-3H11.13a.371.371,0,0,1-.375-.375l.045-.18L12.15,19.5H23.325a2.986,2.986,0,0,0,2.625-1.545L31.32,8.22a1.465,1.465,0,0,0,.18-.72A1.5,1.5,0,0,0,30,6H7.815L6.405,3Zm24,24a3,3,0,1,0,3,3A3,3,0,0,0,25.5,27Z"
+                                                transform="translate(1240.5 74)" fill="#fff" />
+                                            <circle id="Ellipse_75" data-name="Ellipse 75" cx="6" cy="6" r="6"
+                                                transform="translate(1264 75)" fill="red" />
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="profile-men login-avatar">
+                                <a href="login.html">
+                                    <img src="../img/login.svg" alt=""> <span>login</span>
+                                </a>
+                            </div>
+                            <!-- <div class="col-md-1"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="overlay">
+                    <div class="container">
+                        <div class="double-mane-bar">
+                            <div class="row">
+                                <div class="col-lg-2 ">
+                                    <div class="menu-wrapper">
+                                        <!-- <div class="menu-btn">
+                                            <a class="btn-open" href="javascript:void(0)"></a>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-7 ">
+                                    <div class="for-logo">
+                                        <a href="home.html">
+                                            <img src="../img/header-logo.png" alt="" class="img-fluid">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 ">
+                                    <div class="side-num">
+                                        <a role="button" onclick="$('.search-box').addClass('show')">
+                                            <i class="fa fa-search" aria-hidden="true"></i>
+                                            </i>
+                                        </a>
+                                        <div class="cart-box">
+                                            <a href="cart.html">
+
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="32"
+                                                    viewBox="0 0 34 32">
+                                                    <g id="Group_9510" data-name="Group 9510"
+                                                        transform="translate(-1242 -75)">
+                                                        <path id="Icon_material-shopping-cart"
+                                                            data-name="Icon material-shopping-cart"
+                                                            d="M10.5,27a3,3,0,1,0,3,3A3,3,0,0,0,10.5,27ZM1.5,3V6h3L9.9,17.385,7.875,21.06A2.9,2.9,0,0,0,7.5,22.5a3.009,3.009,0,0,0,3,3h18v-3H11.13a.371.371,0,0,1-.375-.375l.045-.18L12.15,19.5H23.325a2.986,2.986,0,0,0,2.625-1.545L31.32,8.22a1.465,1.465,0,0,0,.18-.72A1.5,1.5,0,0,0,30,6H7.815L6.405,3Zm24,24a3,3,0,1,0,3,3A3,3,0,0,0,25.5,27Z"
+                                                            transform="translate(1240.5 74)" fill="#fff" />
+                                                        <circle id="Ellipse_75" data-name="Ellipse 75" cx="6" cy="6"
+                                                            r="6" transform="translate(1264 75)" fill="red" />
+                                                    </g>
+                                                </svg>
+                                            </a>
+                                        </div>
+                                        <div class="profile-men1">
+                                            <a href="profile.html">
+                                                <img src="../img/login.svg" alt=""> <span>login</span>
+                                            </a>
+
+                                        </div>
+                                        <!-- <div class="col-md-1"></div> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="weekendsale.html">Category</a></li>
+                            <li><a href="product-category.html">Our Store</a></li>
+                            <li><a href="conatct.html">Contact Us</a></li>
+                        </ul>
+                        <div class="footer-bottm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="footer-icons">
+                                        <div class="icon-fb">
+                                            <i class="fa fa-facebook-f"></i>
+                                        </div>
+                                        <div class="icon-fb">
+                                            <i class="fa fa-youtube-play"></i>
+                                        </div>
+                                        <div class="icon-fb">
+                                            <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                        </div>
+                                        <div class="icon-fb">
+                                            <i class="fa fa-twitter" aria-hidden="true"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="footer-copyright-links">
+                                        <li class="contact"><a href="faq.html">faq's</a></li>
+                                        <li class="contact"><a href="privacy-policy.html">Privacy Policy</a></li>
+                                        <li class="contact"><a href="cookie-policy.html">Cookie Policy</a></li>
+                                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="search-box">
+        <div class="container">
+            <div class="cancel" onclick="$('.search-box').removeClass('show');">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z">
+                    </path>
+                </svg>
+            </div>
+            <form method="get" action="">
+                <div class="form-group">
+                    <input type="text" name="search" class="form-control" placeholder="Search Product...">
+                    <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <section class="audio-sec">
+<div class="container">
+    <div class="row">
+        <div class="audio-content">
+ <div class="audio-message">
+    <div class="audio-heading">
+        <h2 class="heading2">
+      Add A Message
+    </h2>
+</div>
+<div class="audio-all-content">
+    <div class="audio-img">
+        <img src="../img/audiomsg.png" alt="" class="imgfluid">
+<div class="audio">
+    <div class="audio-box">
+
+        <div class="audio-btn">
+            <i class="fa fa-play buton " id="privatebtn" aria-hidden="true"></i>
+    </div>
+
+                <div class="waveform"></div>
+
+        <div class="waveform-time-indicator">
+            <span class="time">00:30
+       </div>
+        </tr>
+    </div>
+</div>
+
+</div>
+
+    <div class="audio_txt">
+        <div class="audio-name">
+            <p>Lorem Ipsum Is Simply Dummy Text Of The Printing And Typesetting Industry. Lorem Ipsum</p>
+        </div>
+</div>
+</div>
+
+
+<div class="finish">
+    <div class="audio-btn">
+        <div class="view-btn">
+            <a href="view-audio.html" class="btn btn-primary">Finish</a>
+        </div>
+    </div>
+</div>
+ </div>
+        </div>
+    </div>
+</div>
+    </section>
+</body>
+<footer>
+    <div class="uper-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="all-footer-content">
+                        <div class="footer-logo">
+                            <a href="home.html">
+                                <img src="../img/footer-logo.png" alt="" class="img-fluid">
+                            </a>
+                        </div>
+                        <div class="about-footer">
+                            <p>Lorem ipsum dolor sit amet consectetur<br> adipisicing elit. Reprehenderit, labore.
+                                Lorem
+                                <br>ipsum dolor sit amet. Lorem ipsum dolor sit.
+                            </p>
+                        </div>
+                        <div class="footer-icons">
+                            <div class="icon">
+                                <div class="icon-fb">
+                                    <i class="fa fa-facebook-f"></i>
+                                </div>
+                                <div class="icon-fb">
+                                    <i class="fa fa-youtube-play"></i>
+                                </div>
+                                <div class="icon-fb">
+                                    <i class="fa fa-linkedin" aria-hidden="true"></i>
+                                </div>
+                                <div class="icon-fb">
+                                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer-links">
+                            <li class="home"><a href="home.html">Home</a></li>
+                            <li class="home"><a href="about.html">About us</a></li>
+                            <li class="home"><a href="weekendsale.html">Category</a></li>
+                            <li class="home"><a href="product-category.html">Our Store</a></li>
+                            <li><a href="testimonial.html">Testimonial</a></li>
+                        </div>
+                    </div>
+                    <div class="footer-bottm">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="copyright">
+                                    <p>© Tumareliye 2022. All Right Reserved.</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="footer-copyright-links">
+                                    <li class="contact"><a href="conatct.html">Contact</a></li>
+                                    <li class="contact"><a href="profile.html#delivery">Delivery</a></li>
+                                    <li><a href="faq.html">faq</a></li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- Bootstrap CDN -->
+    <script src="../js/jquery.min.js" type="text/javascript"></script>
+    <script src="../js/popper.min.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
+    <script src="../https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.2.2/Chart.min.js"></script>
+    <!-- Bootstrap CDN -->
+    <!-- boostrap js -->
+    <script src="../https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <!-- boostrap js -->
+    <!-- Main Js -->
+    <script src="../js/main.js"></script>
+    <!-- Main Js -->
+
+    <!-- Slick Slider CDN -->
+    <script src="../slick/slick.min.js"></script>
+    <!-- Slick Slider CDN -->
+    <script src="https://unpkg.com/wavesurfer.js"></script>
+    <!-- Wow Js CDN -->
+    <script src="../js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!-- Wow Js CDN -->
+    <script>
+        $(document).ready(function () {
+
+            $(".menu-btn a").click(function () {
+                $(".overlay").fadeToggle(200);
+                $(this).toggleClass('btn-open').toggleClass('btn-close');
+            });
+
+            $('.overlay').on('click', function () {
+                $(".overlay").fadeToggle(200);
+                $(".menu-btn a").toggleClass('btn-open').toggleClass('btn-close');
+            });
+
+            $('.menu a').on('click', function () {
+                $(".overlay").fadeToggle(200);
+                $(".menu-btn a").toggleClass('btn-open').toggleClass('btn-close');
+            });
+
+        });
+        // $(document).ready(function() {
+        //     $("input[name=action]").change(function() {
+        //         var test = $(this).val();
+        //         $(".show-hide").hide();
+        //         $("#" + test).show();
+        //     });
+        // });
+
+        // select input
+        $(document).ready(function () {
+            $('#slelectID').on('change', function () {
+
+                if (this.value == 'showthis') {
+                    $(".box").css("display", "block");
+                } else {
+                    $(".box").hide();
+                }
+            });
+        });
+        // select
+        $("select#slelectstates11").on('click', function (event) {
+            $(".maindropdown_dv11").toggleClass("transform");
+        });
+        // heading
+        window.onload = function () {
+            animateRandom();
+        };
+
+        function animateRandom() {
+            var a = document.getElementsByClassName('random');
+            for (var i = 0; i < a.length; i++) {
+                var $this = a[i];
+                var letter = $this.innerHTML;
+                letter = letter.trim();
+                var delay = 70;
+                var delayArray = new Array;
+                var randLetter = new Array;
+                for (j = 0; j < letter.length; j++) {
+                    while (1) {
+                        var random = getRandomInt(0, (letter.length - 1));
+                        if (delayArray.indexOf(random) == -1)
+                            break;
+                    }
+                    delayArray[j] = random;
+                }
+                for (l = 0; l < delayArray.length; l++) {
+                    var str = '';
+                    var index = delayArray[l];
+                    if (letter[index] != ' ') {
+                        str = '<span style="animation-delay:' + delay + 'ms; -moz-animation-delay:' + delay +
+                            'ms; -webkit-animation-delay:' + delay + 'ms; ">' + letter[index] + '</span>';
+                        randLetter[index] = str;
+                    } else
+                        randLetter[index] = letter[index];
+                    delay += 30;
+                }
+                randLetter = randLetter.join("");
+                $this.innerHTML = randLetter;
+            }
+        }
+
+        function getRandomInt(min, max) {
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        $('.checkbox').change(function () {
+            if ($(this).is(':checked')) {
+                $(".form-group.check-wrapper").css("display", "block");
+            } else {
+                $(".form-group.check-wrapper").css("display", "none");
+            }
+        });
+        // radio type
+        $('#r11').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+
+        $('#r12').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+        $('#r13').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+        $('#r14').on('click', function () {
+            $(this).parent().find('a').trigger('click')
+        })
+        $(".card-link").click(function (e) {
+            var menuItem = $(this);
+
+            if (menuItem.attr("aria-expanded") === "false") {
+                $("button.default").css("display", "none");
+            } else if (menuItem.attr("aria-expanded") === "true") {
+                $(".btndefault").css("display", "block");
+            }
+        });
+        // togglebtn
+        $(document).ready(function () {
+            $(".hideshowbtn").click(function () {
+                $(".form-wrapper").toggle();
+            });
+        });
+        $(document).ready(function () {
+            $(".inputtexthide").click(function () {
+                $(".form-group-btn").toggle();
+            });
+        });
+        // pagination
+        $(document).ready(function () {
+            $(".next").click(function () {
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .next()
+                    .addClass("active");
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .prev()
+                    .removeClass("active");
+            });
+            $(".prev").click(function () {
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .prev()
+                    .addClass("active");
+                $(".pagination")
+                    .find(".pageNumber.active")
+                    .next()
+                    .removeClass("active");
+            });
+        });
+    </script>
+
+    <script>
+        /* When the user clicks on the button, 
+        toggle between hiding and showing the dropdown content */
+        function myFunction() {
+            document.getElementById("myDropdown").classList.toggle("show");
+        }
+
+        // Close the dropdown if the user clicks outside of it
+        window.onclick = function (event) {
+            if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
+
+<script>
+var playbtn = document.getElementById('privatebtn');
+// Initialize WaveSurfer
+var wavesurfer = WaveSurfer.create({
+    container: '.waveform',
+    barWidth: 2,
+    height: 30,
+    responsive: true,
+    hideScrollbar: true,
+    fillParent: false,
+    minPxPerSec: 1.5,
+    fillParent: false,
+    minPxPerSec: 1,
+    loopSelection: true,
+});
+
+// Once the user loads a file in the fileinput, the file should be loaded into waveform
+$("#fileinput").on("change", function() {
+    var file = this.files[0];
+
+    if (file) {
+        var reader = new FileReader();
+
+        reader.onload = function(evt) {
+            // Create a Blob providing as first argument a typed array with the file buffer
+            var blob = new window.Blob([new Uint8Array(evt.target.result)]);
+
+            // Load the blob into Wavesurfer
+            wavesurfer.loadBlob(blob);
+        };
+
+        reader.onerror = function(evt) {
+            console.error("An error ocurred reading the file: ", evt);
+        };
+
+        // Read File as an ArrayBuffer
+        reader.readAsArrayBuffer(file);
+    }
+});
+$('#fileinput').change(function() {
+    var a = $('#fileinput').val().toString().split('\\');
+    $('.fakeInput').val(a[a.length - 1]);
+});
+
+playbtn.addEventListener('click', function(e) {
+    wavesurfer.playPause();
+});
+wavesurfer.on('play', function(e) {
+    playbtn.classList.remove('fa-play');
+    playbtn.classList.add('fa-pause');
+});
+
+//change pause button to play on pause
+wavesurfer.on('pause', function(e) {
+    playbtn.classList.add('fa-play');
+    playbtn.classList.remove('fa-pause');
+});
+wavesurfer.on('ready', updateTimer)
+wavesurfer.on('audioprocess', updateTimer)
+
+// Need to watch for seek in addition to audioprocess as audioprocess doesn't fire
+// if the audio is paused.
+wavesurfer.on('seek', updateTimer)
+
+function updateTimer() {
+    var formattedTime = secondsToTimestamp(wavesurfer.getCurrentTime());
+    $('.waveform-time-indicator .time').text(formattedTime);
+}
+
+function secondsToTimestamp(seconds) {
+    seconds = Math.floor(seconds);
+    var h = Math.floor(seconds / 3600);
+    var m = Math.floor((seconds - (h * 3600)) / 60);
+    var s = seconds - (h) - (m);
+
+    h = h < 10 ? '0' + h : h;
+    m = m < 10 ? '0' + m : m;
+    s = s < 10 ? '0' + s : s;
+    return h + ':' + m + ':' + s;
+}
+
+wavesurfer.load('../img/Sasha-Sloan-Older-OpraDre.com_.mp3');
+</script>
+
+
+</html>
