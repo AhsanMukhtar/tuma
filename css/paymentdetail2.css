@@ -1,0 +1,61 @@
+.address-box {
+    border: 1px solid #B4B4B4;
+}
+
+.address-name {
+    border-bottom: 1px solid #B4B4B4;
+        padding: 0px 18px;
+}
+
+.address-book {
+    padding: 10px 20px;
+}
+.address-name h4 {
+    color: #262626;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "montserrat";
+}
+.address-box .fa {
+    color: #68482A;
+    font-size: 23px;
+}
+.shipping-heading-detail {
+    padding: 10px 0;
+}
+.message-audio {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.audio {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.audio-name p {
+    color: #656565;
+    font-size: 17px;
+    font-family: "poppins";
+    font-weight: 400;
+    margin: 0;
+}
+
+.message-audio h4 {
+    color: #656565;
+    font-size: 17px;
+    font-family: "poppins";
+    font-weight: 400;
+    margin: 0;
+}
+.change-audio {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.audio-msg-img {
+    position: relative;
+}
