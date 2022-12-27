@@ -45,6 +45,18 @@
 .country {
 	text-align: left;
 }
+.banner_texts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: -73px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* padding-top: 197px; 
+    right: 0;
+    /* /* bottom: 0;  */
+}
 /* .dropdown {
 	position: relative;
 	display: inline-block;
