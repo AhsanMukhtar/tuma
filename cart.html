@@ -221,15 +221,7 @@
 
 
     <!-- header end here -->
-    <style>
-        /* header#header {
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 1rem;
-            z-index: 9;
-        } */
-    </style>
+ 
 
     <!-- main Heading start -->
 <section class="main-heading">
@@ -250,18 +242,28 @@
             <div class="col-lg-8">
                 <div class="main-cart">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-3">
                             <div class="cart-img">
                                 <img src="img/cartpic.png" class="img-fluid" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-7 pr-0">
+                        <div class="col-lg-8 p-0">
                             <div class="cart-heading">
                                 <h4>Sweet Treats</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                                <h5>$80.00 <span> <strike> 95.00 </strike> </span></h5>
+                                <div class="product-price">
+                                    <h5>$80.00 <span> <strike> 95.00 </strike> </span></h5>
+                                    <div class="qty-box">
+                                        <label >
+                                            Select Quantity
+                                        </label>
+                                            <span class="minus">-</span>
+                                            <span class="num"></span>
+                                            <span class="plus">+</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-1">
@@ -282,18 +284,28 @@
                 </div>
                 <div class="main-cart">
                     <div class="row">
-                        <div class="col-lg-4">
+                        <div class="col-lg-3">
                             <div class="cart-img">
                                 <img src="img/cartpic1.png" class="img-fluid" alt="">
                             </div>
                         </div>
-                        <div class="col-lg-7 pr-0">
+                        <div class="col-lg-8 pr-0">
                             <div class="cart-heading">
                                 <h4>Sweet Treats</h4>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
                                     incididunt
                                     ut labore et dolore magna aliqua. Ut enim ad minim veniam,</p>
-                                <h5>$80.00 <span> <strike> 95.00 </strike> </span></h5>
+                                    <div class="product-price">
+                                        <h5>$80.00 <span> <strike> 95.00 </strike> </span></h5>
+                                        <div class="qty-box">
+                                            <label >
+                                                Select Quantity
+                                            </label>
+                                                <span class="minuss">-</span>
+                                                <span class="number"></span>
+                                                <span class="pluss">+</span>
+                                        </div>
+                                    </div>
                             </div>
                         </div>
                         <div class="col-lg-1">
@@ -583,50 +595,10 @@
 
             }
         }
-        // password
-        var myInput = document.getElementById('password'),
-            myIcon = document.getElementById('icon');
-        myInput.onfocus = function () {
-            myIcon.style.right = '0px'
-        }
-        myInput.onblur = function () {
-            myIcon.style.right = '0px'
-        }
-        myIcon.onclick = function () {
-            if (myIcon.classList.contains('fa-eye')) {
-                this.classList.toggle('fa-eye-slash');
-                this.classList.toggle('fa-eye');
-                myInput.setAttribute('type', 'text');
-            } else {
-                myInput.setAttribute('type', 'password');
-                this.classList.toggle('fa-eye');
-                this.classList.toggle('fa-eye-slash');
-            };
-        }
-        // password
-        var myInput3 = document.getElementById('password3'),
-            myIcon3 = document.getElementById('icon3');
-        myInput3.onfocus = function () {
-            myIcon3.style.right = '0px'
-        }
-        myInput3.onblur = function () {
-            myIcon3.style.right = '0px'
-        }
-        myIcon3.onclick = function () {
-            if (myIcon3.classList.contains('fa-eye')) {
-                this.classList.toggle('fa-eye-slash');
-                this.classList.toggle('fa-eye');
-                myInput3.setAttribute('type', 'text');
-            } else {
-                myInput3.setAttribute('type', 'password');
-                this.classList.toggle('fa-eye');
-                this.classList.toggle('fa-eye-slash');
-            };
-        }
-    </script>
+        </script>
     <script>
-        /* When the user clicks on the button, 
-        toggle between hiding and showing the dropdown content */
+        // /* When the user clicks on the button, 
+        // toggle between hiding and showing the dropdown content */
         function myFunction() {
             document.getElementById("myDropdown").classList.toggle("show");
         }
@@ -645,297 +617,71 @@
             }
         }
     </script>
-    <script>
-        $('.category-card').slick({
-            dots: true,
-            arrows: true,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 3,
-            slidesToScroll: 3,
-            responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
 
-        var swiper = new Swiper(".mySwiper", {
-            slidesPerView: 3,
-            spaceBetween: 30,
-            slidesPerGroup: 3,
-            loop: true,
-            loopFillGroupWithBlank: true,
-            pagination: {
-                el: ".swiper-pagination",
-                clickable: true,
-            },
-            navigation: {
-                nextEl: ".swiper-button-next",
-                prevEl: ".swiper-button-prev",
-            },
-        });
+<script>
+    const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num");
 
-        $('.photo').slick({
-            dots: false,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 3,
-            slidesToScroll: 1,
-            responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 3,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 2,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
-        // password
-        var myInput4 = document.getElementById('password4'),
-            myIcon4 = document.getElementById('icon4');
-        myInput4.onfocus = function () {
-            myIcon4.style.right = '0px'
-        }
-        myInput4.onblur = function () {
-            myIcon4.style.right = '0px'
-        }
-        myIcon4.onclick = function () {
-            if (myIcon4.classList.contains('fa-eye')) {
-                this.classList.toggle('fa-eye-slash');
-                this.classList.toggle('fa-eye');
-                myInput4.setAttribute('type', 'text');
-            } else {
-                myInput4.setAttribute('type', 'password');
-                this.classList.toggle('fa-eye');
-                this.classList.toggle('fa-eye-slash');
-            };
-        }
-        // password
-        var myInput5 = document.getElementById('password5'),
-            myIcon5 = document.getElementById('icon5');
-        myInput5.onfocus = function () {
-            myIcon5.style.right = '0px'
-        }
-        myInput5.onblur = function () {
-            myIcon5.style.right = '0px'
-        }
-        myIcon5.onclick = function () {
-            if (myIcon5.classList.contains('fa-eye')) {
-                this.classList.toggle('fa-eye-slash');
-                this.classList.toggle('fa-eye');
-                myInput5.setAttribute('type', 'text');
-            } else {
-                myInput5.setAttribute('type', 'password');
-                this.classList.toggle('fa-eye');
-                this.classList.toggle('fa-eye-slash');
-            };
-        }
-        // password
-        var myInput6 = document.getElementById('password6'),
-            myIcon6 = document.getElementById('icon6');
-        myInput6.onfocus = function () {
-            myIcon6.style.right = '0px'
-        }
-        myInput6.onblur = function () {
-            myIcon6.style.right = '0px'
-        }
-        myIcon6.onclick = function () {
-            if (myIcon6.classList.contains('fa-eye')) {
-                this.classList.toggle('fa-eye-slash');
-                this.classList.toggle('fa-eye');
-                myInput6.setAttribute('type', 'text');
-            } else {
-                myInput6.setAttribute('type', 'password');
-                this.classList.toggle('fa-eye');
-                this.classList.toggle('fa-eye-slash');
-            };
-        }
-    </script>
-    <script>
-        // Card's slider
+window.addEventListener("load", ()=> {
+    if (localStorage["num"]) {
+        num.innerText = localStorage.getItem("num");
+    } else {
+        let a = "1";
+        num.innerText = a;
+    }
+});
 
-        $('.slider-for').slick({
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            arrows: false,
-            fade: true,
-            asNavFor: '.slider-nav'
-        });
-        $('.slider-nav').slick({
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            asNavFor: '.slider-for',
-            dots: true,
-            centerMode: true,
-            focusOnSelect: true,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 2
-                    }
-                },
-                {
-                    breakpoint: 480,
-                    settings: {
-                        arrows: false,
-                        centerMode: true,
-                        centerPadding: '40px',
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        });
-    </script>
-    <script>
-        function ratingStar(star) {
-            star.click(function () {
-                var stars = $('.ratingW').find('li')
-                stars.removeClass('on');
-                var thisIndex = $(this).parents('li').index();
-                for (var i = 0; i <= thisIndex; i++) {
-                    stars.eq(i).addClass('on');
-                }
-                putScoreNow(thisIndex + 1);
-            });
-        }
+plus.addEventListener("click", ()=> {
+    a = num.innerText;
+    a++;
+    a = (a < 10) ? "0" + a : a;
+    localStorage.setItem("num", a);
+    num.innerText = localStorage.getItem("num");
+});
 
-        function putScoreNow(i) {
-            $('#ratingField').val(i);
-            ratingToWord(i);
-        }
+minus.addEventListener("click", ()=> {
+    a = num.innerText;
+    if (a > 1) {
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        localStorage.setItem("num", a);
+        num.innerText = localStorage.getItem("num");
+    }
+});
+</script>
+<script>
+    const pluss = document.querySelector(".pluss"),
+    minuss = document.querySelector(".minuss"),
+    number = document.querySelector(".number");
 
-        $(function () {
-            if ($('.ratingW').length > 0) {
-                ratingStar($('.ratingW li a'));
-            }
-        });
+window.addEventListener("load", ()=> {
+    if (localStorage["number"]) {
+        number.innerText = localStorage.getItem("number");
+    } else {
+        let a = "1";
+        number.innerText = a;
+    }
+});
 
-        function ratingToWord(rating) {
-            if (rating == 1) {
-                $("#ratingTxt").val('Bad');
-            }
+pluss.addEventListener("click", ()=> {
+    a = number.innerText;
+    a++;
+    a = (a < 10) ? "0" + a : a;
+    localStorage.setItem("number", a);
+    number.innerText = localStorage.getItem("number");
+});
 
-            if (rating == 2) {
-                $("#ratingTxt").val('Poor');
-            }
-
-            if (rating == 3) {
-                $("#ratingTxt").val('Fair');
-            }
-
-            if (rating == 4) {
-                $("#ratingTxt").val('Good');
-            }
-
-            if (rating == 5) {
-                $("#ratingTxt").val('Excellent');
-            }
-        }
-    </script>
-
-    <script>
-        $('.product-cart-details').slick({
-            dots: false,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 1,
-            slidesToScroll: 2,
-            responsive: [{
-                breakpoint: 1024,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 3,
-                    infinite: true,
-                    dots: true
-                }
-            },
-            {
-                breakpoint: 600,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 2
-                }
-            },
-            {
-                breakpoint: 480,
-                settings: {
-                    slidesToShow: 1,
-                    slidesToScroll: 1
-                }
-            }
-                // You can unslick at a given breakpoint now by adding:
-                // settings: "unslick"
-                // instead of a settings object
-            ]
-        });
-// // slick slider
-// $('.slider-main').slick({
-//     slidesToShow: 1,
-//     arrows: false,
-//     asNavFor: '.slider-nav',
-//     vertical: true,
-//     autoplay: false,
-//     verticalSwiping: true,
-//     centerMode: true
-// });
-
-// $('.slider-nav').slick({
-//     slidesToShow: 4,
-//     asNavFor: '.slider-main',
-//     vertical: true,
-//     focusOnSelect: true,
-//     autoplay: false,
-//     centerMode: true
-// });
-// // slick slider
-    </script>
-
+minuss.addEventListener("click", ()=> {
+    a = number.innerText;
+    if (a > 1) {
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        localStorage.setItem("number", a);
+        number.innerText = localStorage.getItem("number");
+    }
+});
+</script>
 </body>
 
 </html>

@@ -106,3 +106,69 @@
 .edit1.edit-top1 {
 	text-align: end;
 }
+/* qty box css start here */
+.qty-box {
+    zoom: 2;
+    display: flex;
+    align-items: center;
+}
+.qty-box label {
+    font-family: "poppins_r";
+    margin: 0 9px;
+    font-size: 9px;
+}
+  span.minus {
+    font-size: 13px;
+}
+span.plus {
+    font-size: 13px;
+}
+.minus, .plus {
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background-color: #68482a;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .num {
+	  padding: 0 6px;
+	  font-size: 13px;
+  }
+  .product-price {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.cart-img {
+    width: 100%;
+}
+/* qty 2 */
+span.minuss {
+    font-size: 13px;
+}
+span.pluss {
+    font-size: 13px;
+}
+.minuss, .pluss {
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background-color: #68482a;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  .number {
+	  padding: 0 6px;
+	  font-size: 13px;
+  }
+/* qty box css end here */
