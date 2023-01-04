@@ -400,11 +400,11 @@ ul.social-links.d-flex {
 	border-right: 1px solid white;
 	padding: 0 10px !important;
 }
-.profile-men img {
+/* .profile-men img {
 	width: 32px;
-}
+} */
 .login-avatar img {
-	width: 20px;
+	width: 24px;
 }
 .profile-men span {
 	color: white;
@@ -416,7 +416,57 @@ ul.social-links.d-flex {
     padding: 10px 0;
 }
 .spinner4.diagonal.part-1 .fa {
-	color: white;
+    color: white;
+    font-size: 21px;
+}
+.side-num img {
+    width: 24px !important;
+}
+/* profile-dropdown */
+.profilemen {
+    display: flex;
+    position: relative;
+    width: 48px;
+}
+
+.profilemen .btn {
+    background: transparent;
+    padding: 0;
+    border: 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.profilemen .dropdown-item {
+    background: #68482a;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+	padding: 10px 15px;
+}
+
+.profilemen 
+ .dropdown-menu {
+    padding: 0;
+    width: 100px !important;
+    min-width: unset;
+    border: 0;
+    left: -38px !important;
+}
+.profilemen .show>.btn-secondary.dropdown-toggle {
+    color: #fff;
+    background: transparent;
+    border: 0;
+}
+.profilemen .show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow:unset !important;
+}
+.profilemen .dropdown, .dropup {
+    position: unset;
+}
+.profilemen .btn-secondary.focus, .btn-secondary:focus {
+    box-shadow:unset !important;
 }
 /* header css ends here */
 section.banner_secs {
@@ -532,7 +582,27 @@ section.banner_secs {
 		padding: 18rem 0 !important;
 	}
 }
-
+.cart-box{
+	position: relative;
+}
+.profilemen img {
+    width: 37px;
+}
+.cart-box h6 {
+    background: red;
+    position: absolute;
+    top: -3px;
+    right: -8px;
+    border-radius: 40px;
+    width: 12px;
+    height: 12px;
+    font-size: 8px;
+    /* font-family: "sofiapro-light"; */
+    /* color: #fff; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* banner css end here */
 
 /* stayintounch banner start here */
