@@ -201,7 +201,7 @@ button.default1 {
 }
 .para-heading h5 {
 	margin: 0;
-	margin-top: 6px;
+	/* margin-top: 6px; */
 	color: #656565;
 	font-size: 15px;
 	font-family: "poppins";
@@ -214,9 +214,9 @@ button.default1 {
 	font-weight: 400;
 }
 .shipping-detail {
-	background: #f2f2f2;
-	padding: 27px 21px;
-	margin-top: 27px;
+    background: #f2f2f2;
+    padding: 27px 9px;
+    margin-top: 27px;
 }
 .rates h5 {
 	color: #1f162c;
@@ -225,6 +225,14 @@ button.default1 {
 	font-weight: 600;
 	margin: 19px 0 0 0;
 	text-align: end;
+}
+.pricerates h5 {
+	color: #1f162c;
+	font-size: 18px;
+	font-family: "poppins";
+	font-weight: 600;
+	/* margin: 19px 0 0 0; */
+	text-align: center;
 }
 .shipping h4 {
 	color: #000000;
@@ -931,3 +939,91 @@ div#edittextmodal {
 		text-align: center;
 	}
 }
+/* changes */
+.firstorder-item {
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+  }
+  .minus-box {
+	height: 50%;
+	background-color: white;
+	width: 31px;
+	text-align: center;
+  }
+  
+  .plus-box {
+	height: 50%;
+	background-color: white;
+	width: 31px;
+	text-align: center;
+  }
+  
+  .numbers {
+	height: 25px;
+  }
+  span.num {
+    font-size: 14px;
+}
+  .addition {
+	height: 100%;
+	/* background: #68482a; */
+  }
+  .qty-box span.plus {
+	font-size: 15px;
+  }
+  .minus, .plus {
+	display: inline-block;
+	/* width: 14px; */
+	/* height: 15px; */
+	/* background-color: #10101000; */
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .qty-box  span.minus {
+	font-size: 19px;
+  }
+  
+  .num-add {
+    width: 34px;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+  .qty-box {
+	/* zoom: 2; */
+	display: flex;
+	align-items: center;
+	height: 100%;
+	gap: 2px;
+  }
+.qty-box .fa {
+    color: black;
+    font-size: 12px;
+}
+  /* qty2 */
+  .qty-box span.pluss {
+	font-size: 15px;
+  }
+  .minuss, .pluss {
+	display: inline-block;
+	/* width: 14px; */
+	/* height: 15px; */
+	/* background-color: #10101000; */
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  .qty-box  span.minuss {
+	font-size: 19px;
+  }

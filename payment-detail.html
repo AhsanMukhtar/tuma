@@ -687,44 +687,112 @@
                             <div class="shipping-detail">
                                 <h4>Products Details</h4>
                                 <div class="sweet-img-heading">
-                                    <div class="row">
-                                        <div class="col-lg-3 pr-0">
+                                    <div class="firstorder-item">
+                                        <!-- <div class="col-lg-3 pr-0"> -->
                                             <div class="img-sweet-treat">
                                                 <img src="img/shipping.png" class="img-fluid" alt="">
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6 p-0">
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-3 p-0"> -->
                                             <div class="para-heading">
                                                 <h5>Sweet Treats</h5>
                                                 <p>item (1)</p>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-3 ">
-                                            <div class="rates">
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-3 p-0"> -->
+                                            <div class="para-heading">
+                                                <h5>Unit Price</h5>
+                                                <div class="pricerates">
+                                                    <h5>$80</h5>
+                                                </div>
+                                            </div>
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-3 p-0"> -->
+                                            <div class="para-heading">
+                                                <h5>Quantity</h5>
+                                       <div class="numbers">
+                                        <div class="qty-box">   
+                                            <div class="num-add">
+                                                <span class="num"></span>
+                                            </div>
+                                            <div class="addition">
+                                               <div class="minus-box">
+                                                <span class="minus"><i class="fa fa-angle-up" aria-hidden="true"></i></span>
+                                               </div>
+                                               <div class="plus-box">
+                                                <span class="plus"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                               </div>
+                                                
+                                            </div>
+                                           
+                                    </div>
+                                       </div>
+                                            </div>
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-2 "> -->
+                                            <div class="para-heading">
+                                                <h5>Subtotal</h5>
+                                            <!-- </div> -->
+                                            <div class="pricerates">
                                                 <h5>$80</h5>
                                             </div>
-                                        </div>
+                                    </div>
+                                        <!-- </div> -->
                                     </div>
 
                                 </div>
                                 <div class="sweet-img-heading">
-                                    <div class="row">
-                                        <div class="col-lg-3 pr-0">
+                                    <div class="firstorder-item">
+                                        <!-- <div class="col-lg-3 pr-0"> -->
                                             <div class="img-sweet-treat">
                                                 <img src="img/shipping1.png" class="img-fluid" alt="">
                                             </div>
-                                        </div>
-                                        <div class="col-lg-6 p-0">
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-3 p-0"> -->
                                             <div class="para-heading">
                                                 <h5>Sweet Treats</h5>
-                                                <p>item (2)</p>
+                                                <p>item (1)</p>
                                             </div>
-                                        </div>
-                                        <div class="col-lg-3 ">
-                                            <div class="rates">
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-3 p-0"> -->
+                                            <div class="para-heading">
+                                                <h5>Unit Price</h5>
+                                                <div class="pricerates">
+                                                    <h5>$80</h5>
+                                                </div>
+                                            </div>
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-3 p-0"> -->
+                                            <div class="para-heading">
+                                                <h5>Quantity</h5>
+                                       <div class="numbers">
+                                        <div class="qty-box">   
+                                            <div class="num-add">
+                                                <span class="number"></span>
+                                            </div>
+                                            <div class="addition">
+                                               <div class="minus-box">
+                                                <span class="minuss"><i class="fa fa-angle-up" aria-hidden="true"></i></span>
+                                               </div>
+                                               <div class="plus-box">
+                                                <span class="pluss"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+                                               </div>
+                                                
+                                            </div>
+                                           
+                                    </div>
+                                       </div>
+                                            </div>
+                                        <!-- </div> -->
+                                        <!-- <div class="col-lg-2 "> -->
+                                            <div class="para-heading">
+                                                <h5>Subtotal</h5>
+                                            <!-- </div> -->
+                                            <div class="pricerates">
                                                 <h5>$80</h5>
                                             </div>
-                                        </div>
+                                    </div>
+                                        <!-- </div> -->
                                     </div>
                                 </div>
                                 <div class="sweet-img-heading1">
@@ -1418,7 +1486,70 @@ $('.product-cart-details').slick({
 // });
 // // slick slider
 </script>
+<script>
+    const plus = document.querySelector(".plus"),
+    minus = document.querySelector(".minus"),
+    num = document.querySelector(".num");
 
+window.addEventListener("load", ()=> {
+    if (localStorage["num"]) {
+        num.innerText = localStorage.getItem("num");
+    } else {
+        let a = "1";
+        num.innerText = a;
+    }
+});
+
+plus.addEventListener("click", ()=> {
+    a = num.innerText;
+    a++;
+    a = (a < 10) ? "0" + a : a;
+    localStorage.setItem("num", a);
+    num.innerText = localStorage.getItem("num");
+});
+
+minus.addEventListener("click", ()=> {
+    a = num.innerText;
+    if (a > 1) {
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        localStorage.setItem("num", a);
+        num.innerText = localStorage.getItem("num");
+    }
+});
+</script>
+<script>
+    const pluss = document.querySelector(".pluss"),
+    minuss = document.querySelector(".minuss"),
+    number = document.querySelector(".number");
+
+window.addEventListener("load", ()=> {
+    if (localStorage["number"]) {
+        number.innerText = localStorage.getItem("number");
+    } else {
+        let a = "1";
+        number.innerText = a;
+    }
+});
+
+pluss.addEventListener("click", ()=> {
+    a = number.innerText;
+    a++;
+    a = (a < 10) ? "0" + a : a;
+    localStorage.setItem("number", a);
+    number.innerText = localStorage.getItem("number");
+});
+
+minuss.addEventListener("click", ()=> {
+    a = number.innerText;
+    if (a > 1) {
+        a--;
+        a = (a < 10) ? "0" + a : a;
+        localStorage.setItem("number", a);
+        number.innerText = localStorage.getItem("number");
+    }
+});
+</script>
 </body>
 
 </html>

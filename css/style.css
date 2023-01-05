@@ -828,3 +828,15 @@ li.home {
 		padding: 16rem;
 	}
 }
+/* new btn */
+.button-wrappers .btn-primary {
+    background-color: white;
+    border-color: transparent;
+    color: #68482A;
+    width: 158px;
+    padding: 7px 0;
+    font-family: "Poppins";
+    font-weight: 500;
+    text-transform: capitalize;
+    border-radius: 0;
+}

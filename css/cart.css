@@ -95,6 +95,9 @@
 	font-weight: 400;
 	margin-bottom: 28px;
 }
+.payable-productname h4 {
+    margin: 0;
+}
 .payableheadingtotal {
 	display: flex;
 	align-items: center;
