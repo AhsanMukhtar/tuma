@@ -171,4 +171,11 @@ span.pluss {
 	  padding: 0 6px;
 	  font-size: 13px;
   }
+  .payable-productname h4 {
+    margin: 0;
+}
+
+.payable-productname p {
+    font-size: 13px;
+}
 /* qty box css end here */

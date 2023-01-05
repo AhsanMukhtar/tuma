@@ -103,6 +103,23 @@ section.category-sec .main_heading h2 {
 section.category-sec a:hover{
     text-decoration: none !important;
 }
+.price {
+    text-align: center;
+}
+
+.price h6 {
+    margin: 0;
+    font-size: 24px;
+    font-family: "bizantheum";
+    color: #68482a;
+    font-weight: 400;
+}
+.all-productinfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12px;
+}
 /* Category-sec end here */
 /* responsive */
 @media(max-width:767px){

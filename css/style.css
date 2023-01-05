@@ -586,7 +586,7 @@ section.banner_secs {
 	position: relative;
 }
 .profilemen img {
-    width: 37px;
+    width: 33px !important;
 }
 .cart-box h6 {
     background: red;
