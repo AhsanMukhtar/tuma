@@ -8,13 +8,12 @@
 	margin: 69px 0;
 }
 div#accordion .card-header {
-	background: transparent;
+	background: #ffff;
 	border: none;
 	/* padding: 21px 51px; */
 	/* border-bottom: 3px solid #F9FCFF; */
 	padding: 0;
 }
-
 .card-body {
 	padding: 14px 14px !important;
 	border-left: 1px solid #7a7a7a;
@@ -214,9 +213,9 @@ button.default1 {
 	font-weight: 400;
 }
 .shipping-detail {
-    background: #f2f2f2;
-    padding: 27px 9px;
-    margin-top: 27px;
+	background: #f2f2f2;
+	padding: 27px 9px;
+	margin-top: 27px;
 }
 .rates h5 {
 	color: #1f162c;
@@ -394,6 +393,7 @@ button.default1 {
 }
 .openbtn {
 	margin-top: 139px;
+	padding-bottom: 50px;
 }
 /* custom radio btn */
 
@@ -859,6 +859,7 @@ button.btn13 {
 	cursor: pointer;
 	/* background-image: linear-gradient( to bottom, #f8b329, #eca923, #e09f1e, #d59617, #c98c11); */
 	margin-right: 5px;
+	top: -1px;
 }
 .form-group-checkbox input:checked + label:after {
 	content: "";
@@ -888,10 +889,9 @@ button.btn13 {
 	margin: 50px 0px 80px 0px;
 }
 section.product-detail .modal-dialog {
-	max-width: 50%;
+	max-width: 70%;
 	margin-top: 300px;
 }
-
 section.product-detail .modal-header button.btn-close {
 	border: 0;
 	background: transparent;
@@ -922,7 +922,7 @@ section.product-detail .modal-body {
 div#edittextmodal {
 	background: #666666;
 }
-@media(max-width:1199px){
+@media (max-width: 1199px) {
 	.checkbox .left-btn13 button.btn13 {
 		font-size: 12px;
 		padding: 14px 10px;
@@ -944,35 +944,36 @@ div#edittextmodal {
 	display: flex;
 	justify-content: space-between;
 	/* align-items: center; */
-  }
-  .minus-box {
-	height: 50%;
-	background-color: white;
-	width: 31px;
-	text-align: center;
-  }
-  
-  .plus-box {
-	height: 50%;
-	background-color: white;
-	width: 31px;
-	text-align: center;
-  }
-  
-  .numbers {
-	height: 25px;
-  }
-  span.num {
-    font-size: 14px;
 }
-  .addition {
+.minus-box {
+	height: 50%;
+	background-color: white;
+	width: 31px;
+	text-align: center;
+}
+
+.plus-box {
+	height: 50%;
+	background-color: white;
+	width: 31px;
+	text-align: center;
+}
+
+.numbers {
+	height: 25px;
+}
+span.num {
+	font-size: 14px;
+}
+.addition {
 	height: 100%;
 	/* background: #68482a; */
-  }
-  .qty-box span.plus {
+}
+.qty-box span.plus {
 	font-size: 15px;
-  }
-  .minus, .plus {
+}
+.minus,
+.plus {
 	display: inline-block;
 	/* width: 14px; */
 	/* height: 15px; */
@@ -983,36 +984,37 @@ div#edittextmodal {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  }
-  .qty-box  span.minus {
-	font-size: 19px;
-  }
-  
-  .num-add {
-    width: 34px;
-    height: 100%;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: white;
 }
-  .qty-box {
+.qty-box span.minus {
+	font-size: 19px;
+}
+
+.num-add {
+	width: 34px;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+}
+.qty-box {
 	/* zoom: 2; */
 	display: flex;
 	align-items: center;
 	height: 100%;
 	gap: 2px;
-  }
-.qty-box .fa {
-    color: black;
-    font-size: 12px;
 }
-  /* qty2 */
-  .qty-box span.pluss {
+.qty-box .fa {
+	color: black;
+	font-size: 12px;
+}
+/* qty2 */
+.qty-box span.pluss {
 	font-size: 15px;
-  }
-  .minuss, .pluss {
+}
+.minuss,
+.pluss {
 	display: inline-block;
 	/* width: 14px; */
 	/* height: 15px; */
@@ -1023,7 +1025,7 @@ div#edittextmodal {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  }
-  .qty-box  span.minuss {
+}
+.qty-box span.minuss {
 	font-size: 19px;
-  }
+}

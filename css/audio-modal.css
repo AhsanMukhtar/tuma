@@ -1,18 +1,18 @@
 section.audio-sec {
-    padding: 107px 0;
+	padding: 107px 0;
 }
 .audio-content {
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	align-items: center;
 }
 .audio-message {
-    width: 50%;
-    text-align: center;
+	width: 50%;
+	text-align: center;
 }
- button.messagebtn {
-    width: 83%;
+button.messagebtn {
+	width: 83%;
 	background: #f8f8f8;
 	border: 0;
 	margin-top: 1rem;
@@ -23,169 +23,177 @@ section.audio-sec {
 	cursor: pointer;
 }
 button:focus {
-    outline: none;
+	outline: none;
 }
 .audio-text-heading h5 {
-    margin: 0;
-    font-family: "poppins_m";
-    color: white;
+	margin: 0;
+	font-family: "poppins_m";
+	color: white;
 }
 .audio-name p {
-    margin: 0;
-    color: #A8A8A8;
-    font-size: 13px;
+	margin: 0;
+	color: #a8a8a8;
+	font-size: 13px;
 }
-.audio_txt {display: flex;justify-content: center;}
+.audio_txt {
+	display: flex;
+	justify-content: center;
+}
 
 .audio-text-heading {
-    width: 30%;
-    background: #68482A;
+	width: 30%;
+	background: #68482a;
 }
 
 .audio-name {
-    border: 1px solid #68482A;
-    padding: 10px;
-    width: 81%;
+	border: 1px solid #68482a;
+	padding: 10px;
+	width: 81%;
 }
 .message-name p {
-    color: #A8A8A8;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 200;
-    font-size: 12px;
-    margin: 0;
+	color: #a8a8a8;
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-size: 12px;
+	margin: 0;
 }
 .view-btn .btn {
-    background-color: #68482A;
-    border: transparent;
-    padding: 5px 24px;
-    font-family: "poppins_m";
-    border-radius: 0;
+	background-color: #68482a;
+	border: transparent;
+	padding: 5px 24px;
+	font-family: "poppins_m";
+	border-radius: 0;
 }
 
 .audio-btn {
-    padding: 30px 0;
+	padding: 30px 0;
 }
 .audio-all-content {
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    padding: 34px 0;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	padding: 34px 0;
 }
 .audio-all-content .audio-name {
-    border: 0;
-    margin-top: 3px;
+	border: 0;
+	margin-top: 3px;
 }
 canvas {
-    /* width: 600px; */
-    height: auto;
-    background: transparent;
+	/* width: 600px; */
+	height: auto;
+	background: transparent;
 }
 input.fakeInput {
-    display: none;
+	display: none;
 }
 
 .audio-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 83%;
-    gap: 53px;
-    padding: 10px;
-    background: #ffffffad;
-    /* backdrop-filter: brightness(0.3); */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 83%;
+	gap: 53px;
+	padding: 10px;
+	background: #ffffffad;
+	/* backdrop-filter: brightness(0.3); */
 }
 .audio-img {
-    position: relative;
+	position: relative;
 }
 
 .audio {
-    position: absolute;
-    bottom: 0;
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}.audio-box .audio-btn {
-    padding: 0;
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	justify-content: center;
+	width: 100%;
+}
+.audio-box .audio-btn {
+	padding: 0;
 }
 
 .audio-btn .fa {
-    color: #68482A;
+	color: #68482a;
 }
 
-.audio-all-content p {color: #68482A;font-size: 16px;}
+.audio-all-content p {
+	color: #68482a;
+	font-size: 16px;
+}
 .finish {
-    padding-top: 19px;
+	padding-top: 19px;
 }
 .audio-player {
-    display: flex;
-    justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 .audio-player .audio-box {
-    width: 90%;
-    border-left: 1px solid #68482A;
-    margin: 11px 0;
+	/* width: 90%; */
+	border-left: 1px solid #68482a;
+	margin: 11px 0;
 }
 .album-player {
-    background: #f8f8f88c;
-    padding: 30px 15px 29px 13px;
+	background: #f8f8f88c;
+	padding: 30px 15px 29px 13px;
 }
-.btn:hover{
-background-color: #68482A;
-color: white;
-border: transparent;
+.btn:hover {
+	background-color: #68482a;
+	color: white;
+	border: transparent;
 }
-.audio-sec .btn-primary.focus, .btn-primary:focus {
-    box-shadow: none !important;
-    background-color: #68482A !important;
+.audio-sec .btn-primary.focus,
+.btn-primary:focus {
+	box-shadow: none !important;
+	background-color: #68482a !important;
 }
 .audio-imgbox {
-    position: relative;
+	position: relative;
 }
 .change-audio {
-    top: 0;
-    position: absolute;
-    right: 39px;
+	top: 0;
+	position: absolute;
+	right: 39px;
 }
 .edit-photo .modal-dialog {
-    max-width: 80% !important;
-    margin: 1.75rem auto;
+	max-width: 80% !important;
+	margin: 1.75rem auto;
 }
 .edit-audio .modal-dialog {
-    max-width: 95% !important;
-    margin: 1.75rem auto;
+	max-width: 95% !important;
+	margin: 1.75rem auto;
 }
 button.btn-close {
-    border: 0;
-    background: transparent;
+	border: 0;
+	background: transparent;
 }
 .change-audio .messagebtn {
-    background: transparent !important;
-    margin: 0;
-    padding: 0;
+	background: transparent !important;
+	margin: 0;
+	padding: 0;
 }
 .change-audios .messagebtn {
-    background: transparent !important;
-    margin: 0;
-    padding: 0;
+	background: transparent !important;
+	margin: 0;
+	padding: 0;
 }
 .audio_txtss h4 {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    font-size: 17px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-size: 17px;
 }
 
 .person-name h4 {
-    color: #68482A;
+	color: #68482a;
 }
 
 .audio-wish p {
-    margin: 0;
-    color: black;
-    font-family: "poppins_m";
+	margin: 0;
+	color: black;
+	font-family: "poppins_m";
 }
 .audio-names {
-    padding: 10px;
-    width: 100%;
+	padding: 10px;
+	width: 100%;
 }
 .audio-names p {
-    color: #2a2a2a;
-    font-size: 14px;
+	color: #2a2a2a;
+	font-size: 14px;
 }

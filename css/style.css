@@ -55,7 +55,10 @@ p {
 	font-size: 16px;
 	font-family: "poppins_r";
 }
-
+button:focus {
+	outline: none;
+	outline: none;
+}
 h1 {
 	font-family: "oriental";
 	font-size: 111px;
@@ -325,6 +328,7 @@ ul.social-links.d-flex {
 .for-logo {
 	text-align: center;
 	position: relative;
+	margin-left: 160px;
 }
 .all-header-item {
 	background: #68482a;
@@ -337,6 +341,7 @@ ul.social-links.d-flex {
 	justify-content: space-evenly;
 	position: relative;
 	height: 100%;
+	cursor: pointer;
 }
 .cart-dot {
 	position: absolute;
@@ -410,63 +415,80 @@ ul.social-links.d-flex {
 	color: white;
 }
 .nav-item {
-    display: flex;
-    align-items: baseline;
-    background-color: #68482a;
-    padding: 10px 0;
+	display: flex;
+	align-items: baseline;
+	background-color: #68482a;
+	padding: 10px 0;
 }
 .spinner4.diagonal.part-1 .fa {
-    color: white;
-    font-size: 21px;
+	color: white;
+	font-size: 21px;
+}
+.spinner4.diagonal.part-1 {
+	cursor: pointer;
 }
 .side-num img {
-    width: 24px !important;
+	width: 24px !important;
 }
 /* profile-dropdown */
 .profilemen {
-    display: flex;
-    position: relative;
-    width: 48px;
+	/* display: flex; */
+	position: relative;
+	width: 48px;
 }
-
 .profilemen .btn {
-    background: transparent;
-    padding: 0;
-    border: 0;
-    position: absolute;
-    bottom: 0;
+	background: transparent;
+	padding: 0;
+	border: 0;
+	position: absolute;
+	bottom: 0;
+	left: 1px;
+	width: 40px;
+	text-align: end;
+	height: 40px;
+	bottom: -6px;
 }
-
 .profilemen .dropdown-item {
-    background: #68482a;
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    font-size: 13px;
-	padding: 10px 15px;
+	background: #68482a;
+	color: white;
+	font-family: "Poppins", sans-serif;
+	font-weight: 300;
+	font-size: 13px;
+	padding: 6px 15px;
+	text-transform: capitalize;
 }
 
-.profilemen 
- .dropdown-menu {
-    padding: 0;
-    width: 100px !important;
-    min-width: unset;
-    border: 0;
-    left: -38px !important;
+.profilemen .dropdown-menu {
+	padding: 0;
+	width: 100px !important;
+	min-width: unset;
+	border: 0;
+	left: -31px !important;
+	will-change: transform !important;
+	border-top: 1px solid transparent !important;
+	top: -2px !important;
+	z-index: 11;
 }
-.profilemen .show>.btn-secondary.dropdown-toggle {
-    color: #fff;
-    background: transparent;
-    border: 0;
+.profilemen .show > .btn-secondary.dropdown-toggle {
+	color: #fff;
+	background: transparent;
+	border: 0;
 }
-.profilemen .show>.btn-secondary.dropdown-toggle:focus {
-    box-shadow:unset !important;
+.profilemen .show > .btn-secondary.dropdown-toggle:focus {
+	box-shadow: unset !important;
 }
-.profilemen .dropdown, .dropup {
-    position: unset;
+.profilemen .dropdown {
+	position: unset;
+	transform: translateY(-10px);
+	transition: 0.5s all;
 }
-.profilemen .btn-secondary.focus, .btn-secondary:focus {
-    box-shadow:unset !important;
+.profilemen .dropdown.show {
+	transform: translateY(10px);
+	transition: 0.5s all;
+}
+.profilemen .btn-secondary.focus,
+.btn-secondary:focus {
+	box-shadow: unset !important;
 }
 /* header css ends here */
 section.banner_secs {
@@ -582,26 +604,26 @@ section.banner_secs {
 		padding: 18rem 0 !important;
 	}
 }
-.cart-box{
+.cart-box {
 	position: relative;
 }
 .profilemen img {
-    width: 33px !important;
+	width: 33px !important;
 }
 .cart-box h6 {
-    background: red;
-    position: absolute;
-    top: -3px;
-    right: -8px;
-    border-radius: 40px;
-    width: 12px;
-    height: 12px;
-    font-size: 8px;
-    /* font-family: "sofiapro-light"; */
-    /* color: #fff; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
+	background: red;
+	position: absolute;
+	top: -3px;
+	right: -8px;
+	border-radius: 40px;
+	width: 12px;
+	height: 12px;
+	font-size: 8px;
+	/* font-family: "sofiapro-light"; */
+	/* color: #fff; */
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 /* banner css end here */
 
@@ -830,13 +852,23 @@ li.home {
 }
 /* new btn */
 .button-wrappers .btn-primary {
-    background-color: white;
-    border-color: transparent;
-    color: #68482A;
-    width: 158px;
-    padding: 7px 0;
-    font-family: "Poppins";
-    font-weight: 500;
-    text-transform: capitalize;
-    border-radius: 0;
+	background-color: white;
+	border-color: transparent;
+	color: #68482a;
+	width: 127px;
+	padding: 7px 0;
+	font-family: "Poppins";
+	font-weight: 500;
+	text-transform: capitalize;
+	border-radius: 0;
+}
+input:-webkit-autofill {
+	-webkit-box-shadow: 0 0 0 1000px white inset !important;
+}
+.btn-secondary:not(:disabled):not(.disabled).active,
+.btn-secondary:not(:disabled):not(.disabled):active,
+.show > .btn-secondary.dropdown-toggle {
+	color: #fff;
+	background-color: transparent;
+	border-top: #fff;
 }
