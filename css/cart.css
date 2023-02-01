@@ -53,7 +53,7 @@
 }
 .cart-heading h5 {
 	font-family: "Montserrat";
-	font-size: 24px;
+	font-size: 20px;
 	font-weight: 600;
 	margin: 5px 0;
 	color: #68482a;
@@ -96,7 +96,7 @@
 	margin-bottom: 28px;
 }
 .payable-productname h4 {
-    margin: 0;
+	margin: 0;
 }
 .payableheadingtotal {
 	display: flex;
@@ -111,74 +111,110 @@
 }
 /* qty box css start here */
 .qty-box {
-    zoom: 2;
-    display: flex;
-    align-items: center;
+	zoom: 2;
+	display: flex;
+	align-items: center;
 }
 .qty-box label {
-    font-family: "poppins_r";
-    margin: 0 9px;
-    font-size: 9px;
+	font-family: "poppins_r";
+	margin: 0 9px;
+	font-size: 9px;
 }
-  span.minus {
-    font-size: 13px;
+span.minus {
+	font-size: 13px;
 }
 span.plus {
-    font-size: 13px;
+	font-size: 13px;
 }
-.minus, .plus {
-    display: inline-block;
-    width: 14px;
-    height: 15px;
-    background-color: #68482a;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.minus,
+.plus {
+	display: inline-block;
+	width: 14px;
+	height: 15px;
+	background-color: #68482a;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-  .num {
-	  padding: 0 6px;
-	  font-size: 13px;
-  }
-  .product-price {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    align-items: center;
+.num {
+	padding: 0 6px;
+	font-size: 13px;
+}
+.product-price {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
 }
 .cart-img {
-    width: 100%;
+	width: 100%;
 }
 /* qty 2 */
 span.minuss {
-    font-size: 13px;
+	font-size: 13px;
 }
 span.pluss {
-    font-size: 13px;
+	font-size: 13px;
 }
-.minuss, .pluss {
-    display: inline-block;
-    width: 14px;
-    height: 15px;
-    background-color: #68482a;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.minuss,
+.pluss {
+	display: inline-block;
+	width: 14px;
+	height: 15px;
+	background-color: #68482a;
+	color: #fff;
+	text-align: center;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-  .number {
-	  padding: 0 6px;
-	  font-size: 13px;
-  }
-  .payable-productname h4 {
-    margin: 0;
+.number {
+	padding: 0 6px;
+	font-size: 13px;
+}
+.payable-productname h4 {
+	margin: 0;
 }
 
 .payable-productname p {
-    font-size: 13px;
+	font-size: 13px;
 }
 /* qty box css end here */
+@media (max-width: 991px) {
+	.carticon {
+		text-align: end;
+		margin-right: -10px;
+		margin-top: 15px;
+	}
+	.cart-heading {
+		padding-top: 20px;
+	}
+}
+@media (max-width: 575px) {
+	.main-cart {
+		margin: 10px 0 20px 0;
+	}
+	.hading-wrapper.text-center {
+		margin: 30px 0 20px 0;
+	}
+	.product-price {
+		display: block;
+	}
+	.qty-box {
+		zoom: 1.6;
+	}
+	.product-price .qty-box label {
+		margin-left: 0;
+	}
+	.cart-heading h4 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.payableheadingtotal h4 {
+		font-size: 15px;
+	}
+}

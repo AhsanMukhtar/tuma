@@ -29,7 +29,7 @@
 .messagebuttons button.messagebtn:focus {
 	outline: unset;
 }
-.largerimage{
+.largerimage {
 	display: none;
 }
 .messagebuttons a.messagebtn {
@@ -62,16 +62,16 @@ section.addamessage_page .modal-dialog {
 	color: #a8a8a8;
 }
 .messagebuttons .messageimage {
-    background: #f8f8f8;
-    border: 0;
-    margin-top: 1rem;
-    padding: 20px;
+	background: #f8f8f8;
+	border: 0;
+	margin-top: 1rem;
+	padding: 20px;
 }
 
 .messagebuttons .messageimage img.largeimg {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
+	width: 100%;
+	height: 250px;
+	object-fit: cover;
 }
 section.addamessage_page .modal-header button.btn-close:after {
 	color: #68482a !important;
@@ -80,10 +80,10 @@ section.addamessage_page .modal-header button.btn-close:after {
 section.addamessage_page .modal-header button.btn-close {
 	border: 0;
 	background: transparent;
-	color: #68482a ;
+	color: #68482a;
 }
 section.addamessage_page .modal-header button.btn-close:focus {
-    outline: unset;
+	outline: unset;
 }
 .modal-content {
 	background-color: #f8f8f8;
@@ -249,55 +249,55 @@ div#edittextmodal {
 }
 
 section.addamessage_page .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #f8f8f8;
-    height: 100%;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
+	text-align: center;
+	font-size: 18px;
+	background: #f8f8f8;
+	height: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 30px;
 }
 .messagebuttons button.messagebtn input {
-    background: #f8f8f8;
-    border: 0;
-    /* margin-top: 1rem; */
-    padding: 0 20px;
-    color: #68482a;
-    font-family: "poppins_m";
-    font-size: 13px;
-    cursor: pointer;
-    text-align: center;
-    outline: 0;
-    width: 100%;
-    display: none;
-    border: 1px solid #68482A;
-    height: 4rem;
-    margin: 0;
-    color: #A8A8A8;
-    font-size: 13px;
+	background: #f8f8f8;
+	border: 0;
+	/* margin-top: 1rem; */
+	padding: 0 20px;
+	color: #68482a;
+	font-family: "poppins_m";
+	font-size: 13px;
+	cursor: pointer;
+	text-align: center;
+	outline: 0;
+	width: 100%;
+	display: none;
+	border: 1px solid #68482a;
+	height: 4rem;
+	margin: 0;
+	color: #a8a8a8;
+	font-size: 13px;
 }
 .messagebuttons button.messagebtn input:checked {
-    display: block;
+	display: block;
 }
 section.addamessage_page .swiper-slide img:not(:last-child) {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 section.addamessage_page .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 215px;
-    object-fit: cover;
+	display: block;
+	width: 100%;
+	height: 215px;
+	object-fit: cover;
 }
 section.addamessage_page .swiper-wrapper {
 	margin: 20px 0;
@@ -324,74 +324,95 @@ section.addamessage_page .swiper-wrapper {
 	padding: 10px 10px;
 }
 #buttonImage {
-    /* float: right; */
-    /* position: absolute; */
-    /* right: 42px; */
-    /* top: 0; */
-    /* background: #02a39c; */
-    padding: 18px 30px;
-    color: white;
-    font-weight: bold;
-    /* border-radius: 0px 8px 8px 0px; */
-    /* height: 1.25em; */
-    padding: 4px 27px;
-    color: var(--first-color);
-    font-size: 14px;
-    font-family: "poppins";
-    font-weight: 500;
-    background-color: #fff;
-    border: 1px solid var(--first-color);
+	/* float: right; */
+	/* position: absolute; */
+	/* right: 42px; */
+	/* top: 0; */
+	/* background: #02a39c; */
+	padding: 18px 30px;
+	color: white;
+	font-weight: bold;
+	/* border-radius: 0px 8px 8px 0px; */
+	/* height: 1.25em; */
+	padding: 4px 27px;
+	color: var(--first-color);
+	font-size: 14px;
+	font-family: "poppins";
+	font-weight: 500;
+	background-color: #fff;
+	border: 1px solid var(--first-color);
 }
 .table-responsive .table td input[type="file"] {
-    display: none;
+	display: none;
 }
 input#fakeInput {
-    width: 150%;
-    background-color: transparent;
-    border-radius: 8px;
-    display: block;
-    /* padding: 11px 0; */
-    box-sizing: border-box;
-    border: initial;
-    /* height: 3em; */
-    display: inline-block;
-    -webkit-animation: scrolling-left2 10s linear infinite;
-    animation: scrolling-left2 10s linear infinite;
-    animation-delay: 10s;
-    white-space: nowrap;
+	width: 150%;
+	background-color: transparent;
+	border-radius: 8px;
+	display: block;
+	/* padding: 11px 0; */
+	box-sizing: border-box;
+	border: initial;
+	/* height: 3em; */
+	display: inline-block;
+	-webkit-animation: scrolling-left2 10s linear infinite;
+	animation: scrolling-left2 10s linear infinite;
+	animation-delay: 10s;
+	white-space: nowrap;
 }
 .modal-body .table-responsive table.table tbody tr td:nth-child(1) i {
-    color: #68482a;
-    font-size: 18px;
-    padding: 6px 6px 0px 0px;
+	color: #68482a;
+	font-size: 18px;
+	padding: 6px 6px 0px 0px;
 }
 .modal-body .table-responsive table.table tbody tr td:nth-child(2) {
-    width: 306px;
-    overflow: hidden;
+	width: 306px;
+	overflow: hidden;
 	min-width: 306px;
 }
 .modal-body .table-responsive table.table tbody tr td:nth-child(3) {
-    min-width: 100px;
+	min-width: 100px;
 }
 .modal-body .table-responsive table.table tbody tr td:nth-child(5) {
-    min-width: 130px;
+	min-width: 130px;
 }
 .modal-body .table-responsive table.table tbody tr td {
-    vertical-align: middle;
+	vertical-align: middle;
 }
 .modal-body .table-responsive table.table tbody tr td p {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 /*  */
 .modal-open .modal {
-    overflow-x: hidden;
-    overflow-y: auto;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 a.audio-shows {
-    color: #68482a;
-    /* margin-right: 10px; */
-    font-size: 14px;
-    font-family: "poppins";
-    font-weight: 500;
-    text-align: center;
+	color: #68482a;
+	/* margin-right: 10px; */
+	font-size: 14px;
+	font-family: "poppins";
+	font-weight: 500;
+	text-align: center;
+}
+@media (max-width: 991px) {
+	.selectaudiomodal .modal-header {
+		display: block;
+	}
+	.selectaudiomodal .modal-header h5 {
+		text-align: center;
+	}
+	.selectaudiomodal .modal-header button.btn-modal {
+		position: unset;
+		margin: 0px auto;
+		display: table;
+	}
+	.selectaudiomodal .modal-header figure {
+		text-align: center;
+	}
+	.selectaudiomodal .modal-header button.btn-close {
+		position: absolute;
+		top: 5px;
+		right: 15px;
+	}
 }

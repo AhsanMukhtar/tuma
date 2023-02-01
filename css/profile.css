@@ -144,12 +144,11 @@ li.nav-item1 a .btn {
 	margin-top: 0px;
 }
 .main-wrapper {
-	margin: 20px 0px 89px 50px;
+	margin: 20px 0px 20px 50px;
 	position: relative;
 }
-.main-wrapper-input {
-	margin: 20px 0px 89px 50px;
-	position: relative;
+.profile-sec .table-wrapper ul.pagination {
+	margin-bottom: 50px;
 }
 .field-wrapper h4 i {
 	margin-right: 10px;
@@ -172,6 +171,7 @@ li.nav-item1 a .btn {
 	margin-top: 19px;
 	position: absolute;
 	right: 15px;
+	z-index: 9;
 }
 .field-wrapper1 h4 {
 	font-family: "poppins";
@@ -205,6 +205,7 @@ li.nav-item1 a .btn {
 
 .inputWithIcon input {
 	padding-left: 37px;
+	padding-right: 40px;
 }
 .inputWithIcon {
 	position: relative;
@@ -212,7 +213,7 @@ li.nav-item1 a .btn {
 }
 .inputWithIcon i {
 	position: absolute;
-	left: 6px;
+	right: 0px;
 	top: 13px;
 	padding: 9px 8px;
 	color: var(--first-color);
@@ -250,7 +251,7 @@ input[type="number"] {
 	-moz-appearance: textfield; /* Firefox */
 }
 
-.inputWithIcon .icon-wrapper {
+/* .inputWithIcon .icon-wrapper {
 	position: absolute;
 	left: 233px !important;
 	top: 13px !important;
@@ -258,7 +259,7 @@ input[type="number"] {
 	color: var(--first-color);
 	transition: 0.3s;
 	font-size: 22px;
-}
+} */
 h4.change-p-heading {
 	font-size: "poppins-regular";
 	font-family: "poppins_r";
@@ -875,4 +876,147 @@ button.btn13 {
 .box select:focus {
 	border-color: var(--first-color);
 	box-shadow: 0 0 8px 0 var(--first-color);
+}
+@media (max-width: 991px) {
+	.upload-img {
+		margin-top: 50px;
+		text-align: center;
+	}
+	.bottomborder {
+		padding-bottom: 20px;
+	}
+	.main-wrapper {
+		margin: 20px 0px 50px 0px;
+	}
+	li.nav-item1 {
+		position: unset;
+		text-align: center;
+		margin: 0px auto 10px;
+		width: 100%;
+	}
+	.nav-tabs .nav-item {
+		width: 100%;
+		margin-bottom: 2px;
+		text-align: center;
+	}
+	section.profile-sec .nav-tabs .nav-link {
+		width: 100%;
+	}
+	li.nav-item1 a .btn {
+		color: #fff;
+		border: none;
+		font-size: 25px;
+		font-family: "bizantheum";
+		padding: 35px 30px;
+		border-radius: 0;
+		margin: 0;
+		line-height: 5px;
+		width: 100%;
+		background: var(--first-color);
+	}
+	.table-wrapper1 .table thead tr th {
+		padding: 14px 10px;
+	}
+	.radio-wrapper {
+		margin: 40px 0px 40px 0px;
+	}
+	.main-wrapper-input {
+		margin: 20px 0px 40px 0px;
+	}
+	.radio-wrapper .for-res {
+		margin-top: 25px;
+	}
+	.cutom_radio_btn[type="radio"]:checked + label span.custom_radio:before,
+	.cutom_radio_btn[type="radio"]:not(:checked)
+		+ label
+		span.custom_radio:before {
+		left: -20px;
+		top: 5px;
+	}
+	.cutom_radio_btn[type="radio"]:checked + label span.custom_radio:after,
+	.cutom_radio_btn[type="radio"]:not(:checked) + label span.custom_radio:after {
+		top: 10px;
+		left: -15.5px;
+	}
+}
+@media (max-width: 768px) {
+	.main-wrapper {
+		margin: 20px 0px 50px 0px;
+		overflow-x: scroll;
+	}
+	.table-wrapper .table tbody tr td {
+		min-width: 150px;
+	}
+	button.btn-radio {
+		padding: 4px 10px;
+		margin-left: 0px;
+	}
+	button.btn-radio a {
+		font-size: 13px;
+	}
+}
+@media (max-width: 480px) {
+	.edit.edit-top {
+		position: unset;
+	}
+	.edit a#button {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	.edit.edit-top a#button {
+		width: 100%;
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.top-wrapper .field-wrapper {
+		display: block;
+		margin: 0;
+	}
+	.top-wrapper {
+		margin-top: 20px;
+	}
+	.pagination li.page-item {
+		margin: 0px 4px;
+	}
+	.page-item:first-child .page-link {
+		padding: 7px 13px !important;
+	}
+	.page-item:last-child .page-link {
+		padding: 7px 13px !important;
+	}
+	.page-item:first-child .page-link i {
+		font-size: 15px;
+	}
+	.page-item:last-child .page-link i {
+		font-size: 15px;
+	}
+	.page-item.active .page-link {
+		padding: 8px 13px !important;
+		font-size: 16px;
+		line-height: 22px;
+	}
+	.page-item .page-link {
+		padding: 8px 13px !important;
+		font-size: 16px;
+		line-height: 22px;
+	}
+	button.btn-radio {
+		margin-right: 0px;
+		margin-left: -10px;
+	}
+	.main-row {
+		padding: 0 30px;
+	}
+	.detail_information_information .btn-raio-main {
+		text-align: center;
+		display: flex;
+		align-items: center;
+		justify-content: end;
+		padding: 15px 10px 0;
+	}
+	.delete {
+		margin: 4px 20px 0 0;
+	}
 }

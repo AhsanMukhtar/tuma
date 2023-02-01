@@ -131,6 +131,21 @@ section.faqs-sec .accordion-button[aria-expanded="false"]::before {
 	outline: 0;
 	box-shadow: unset !important;
 }
+@media (max-width: 768px) {
+	.faqs-sec {
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+	.faq-heading {
+		width: 100%;
+	}
+	.faq-box {
+		padding: 10px 10px;
+	}
+	.faq-card h2 .accordion-button {
+		font-size: 14px;
+	}
+}
 @media (max-width: 590px) {
 	.faq-card h5 .faq {
 		font-size: 7px;
@@ -156,5 +171,20 @@ section.faqs-sec .accordion-button[aria-expanded="false"]::before {
 
 	h2 {
 		font-size: 34px;
+	}
+	.faq-card h2 .accordion-button {
+		text-align: left;
+		line-height: 24px;
+		padding: 10px 13px;
+	}
+	.main_heading.text-center {
+		margin-bottom: 10px;
+	}
+	.faqs-sec {
+		padding-bottom: 30px !important;
+		padding-top: 40px !important;
+	}
+	.faqs-sec .accordion-button[aria-expanded="false"]::before {
+		display: none;
 	}
 }

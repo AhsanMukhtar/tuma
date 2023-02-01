@@ -1,4 +1,3 @@
-
 /* Category-sec start here */
 
 section.category-sec {
@@ -7,51 +6,38 @@ section.category-sec {
 /* category-tab start here */
 
 .category-tab .nav-tabs {
-    border-bottom: 1px solid #68482A;
+	border-bottom: 1px solid #68482a;
 }
 .category-tab .nav-link {
-    padding: 7px 25px;
+	padding: 7px 25px;
 }
 .category-tab .nav-tabs .nav-item {
-    margin-bottom: 0px;
+	margin-bottom: 0px;
 }
-.category-tab .nav-tabs .nav-link{
+.category-tab .nav-tabs .nav-link {
 	background-color: transparent !important;
-	color: #B1B1B1 !important;
+	color: #b1b1b1 !important;
 	font-family: "bizantheum";
 	font-size: 25px;
 }
 .category-tab .nav-link.active {
-    color: white !important;
-    background-color: #68482a !important;
-    border-color: transparent !important;
-    border-radius: 0;
+	color: white !important;
+	background-color: #68482a !important;
+	border-color: transparent !important;
+	border-radius: 0;
 }
-.category-tab .nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
-    border-color: transparent;
+.category-tab .nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+	border-color: transparent;
 }
 .category-tab .nav-tabs button:focus {
-    outline: none !important;
+	outline: none !important;
 }
 .category-cards {
-    padding-top: 37px;
+	padding-top: 37px;
 }
 /* reponsive  */
-@media screen and (max-width: 580px) {
-	.category-tab .nav-tabs .nav-link {
-		font-size: 15px !important;
-		width: 100% !important;
-		padding: 7px 4px !important;
-	}
-	.category-tab .nav-item {
-		width: 32% !important;
-	}
-	.category-tab .nav-tabs {
-		flex-wrap: nowrap !important;
-	}
-}
 /* category-tab end here */
-
 
 /* category card start here */
 .add-category {
@@ -65,13 +51,13 @@ section.category-sec {
 	font-family: "poppins_r";
 }
 .category-img {
-    position: relative;
-    border: 5px solid transparent;
+	position: relative;
+	border: 5px solid transparent;
 }
 .category-img:hover {
-    background-color: #68482a;
-    /* padding: 6px 6px; */
-    border: 5px solid #68482a;
+	background-color: #68482a;
+	/* padding: 6px 6px; */
+	border: 5px solid #68482a;
 }
 .product-img {
 	background: white !important;
@@ -92,36 +78,62 @@ section.category-sec {
 section.category-sec .main_heading h2 {
 	font-size: 59px;
 }
-.product-listing{
+.product-listing {
 	display: flex !important;
-    flex-wrap: wrap;
-    justify-content: center;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 .category-product {
-    margin: 10px;
+	margin: 10px;
 }
-section.category-sec a:hover{
-    text-decoration: none !important;
+section.category-sec a:hover {
+	text-decoration: none !important;
 }
 .price {
-    text-align: center;
+	text-align: center;
 }
 
 .price h6 {
-    margin: 0;
-    font-size: 24px;
-    font-family: "bizantheum";
-    color: #68482a;
-    font-weight: 400;
+	margin: 0;
+	font-size: 24px;
+	font-family: "bizantheum";
+	color: #68482a;
+	font-weight: 400;
 }
 .all-productinfo {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 12px;
 }
 /* Category-sec end here */
 /* responsive */
-@media(max-width:767px){
-	
+@media (max-width: 767px) {
+	.category-sec .main_heading {
+		padding-bottom: 10px;
+	}
+	.category-sec .main_heading h2 {
+		padding-bottom: 10px;
+	}
+	.category-tab .nav-tabs .nav-item {
+		width: 100%;
+		margin-bottom: 2px;
+		text-align: center;
+	}
+	.category-tab .nav-link {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.category-tab .nav-tabs .nav-link {
+		font-size: 15px !important;
+		width: 100% !important;
+		padding: 7px 4px !important;
+	}
+}
+@media (max-width: 480px) {
+	section.category-sec {
+		padding: 30px 0;
+	}
 }

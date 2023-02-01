@@ -29,6 +29,7 @@ td.pais-color1 {
 .table-wrapper1 .table tbody tr td i.fa.fa-times {
 	font-size: 23px;
 	color: #1f162c;
+	cursor: pointer;
 }
 .table-wrapper1 .table tbody tr th {
 	text-align: center;
@@ -293,4 +294,45 @@ span.num {
 	background-color: var(--first-color);
 	border-color: none;
 	border-radius: 0;
+}
+@media (max-width: 768px) {
+	.hading-wrapper.text-center {
+		margin: 30px 0 30px 0;
+	}
+	.table-wrapper1 .table tbody tr td {
+		min-width: 200px;
+	}
+	.whishlist .table-wrapper.main-wrapper {
+		overflow-x: scroll;
+	}
+	.whishlist .table-wrapper.main-wrapper td {
+		padding: 15px 10px;
+	}
+	.whishlist .btn-cart-wrapper {
+		display: block !important;
+		padding: 30px 30px 20px;
+	}
+	.whishlist .btn-cart-wrapper button {
+		margin: 0 5px;
+	}
+	.whishlist .btn-cart-wrapper .input-group {
+		justify-content: center;
+	}
+	.whishlist .Subtotal {
+		display: block;
+	}
+	.whishlist .Subtotal button {
+		margin: 10px 0 0 0;
+	}
+	.whishlist .Subtotal .subtotal-wrapper {
+		width: auto;
+	}
+	.whishlist .Subtotal .input-group {
+		justify-content: center;
+	}
+}
+@media (max-width: 575px) {
+	.whishlist .btn-cart-wrapper button.btn1 {
+		margin-top: 6px;
+	}
 }

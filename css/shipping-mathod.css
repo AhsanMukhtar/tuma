@@ -41,6 +41,35 @@
 	font-family: "poppins";
 	font-weight: 400;
 }
-.shipping-mathod a:hover{
+.shipping-mathod a:hover {
 	text-decoration: none;
+}
+@media (max-width: 991px) {
+	.hading-wrapper.text-center {
+		margin: 40px 0 30px 0;
+	}
+	.hading-wrapper.text-center h2 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+	.send-wrapper {
+		margin: 20px 0 0px 0;
+	}
+}
+@media (max-width: 575px) {
+	.hading-wrapper.text-center {
+		margin: 40px 0 10px 0;
+	}
+	.hading-wrapper.text-center h2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+	.send-wrapper h4 {
+		font-size: 25px;
+		line-height: 35px;
+	}
+	.send-wrapper p {
+		font-size: 13px;
+		line-height: 23px;
+	}
 }

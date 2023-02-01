@@ -73,7 +73,6 @@ textarea.form-control.contact-control {
 	height: 132px;
 	border-radius: 0 !important;
 }
-
 .form-control.contact-control {
 	border-radius: 0 !important;
 	border: 1px solid #68482a;
@@ -88,8 +87,38 @@ textarea.form-control.contact-control {
 .map-wrapper {
 	padding: 40px 0;
 }
-
 .map-wrapper iframe {
 	width: 100%;
+}
+@media (max-width: 768px) {
+	.contact-info-wrapper {
+		display: block;
+	}
+	.contact-form-wrapper {
+		padding: 60px 0 0px;
+		display: block;
+	}
+	.main_heading {
+		padding-top: 35px;
+		padding-bottom: 20px;
+	}
+	.contact-info-wrapper .contact-num {
+		padding: 0;
+		border: 0;
+		margin: 20px 0;
+	}
+	.contact-info-wrapper .email-contact {
+		padding: 0;
+	}
+	.form-sub-btn .btn {
+		width: 100%;
+		padding: 15px 0;
+	}
+}
+@media (max-width: 480px) {
+	.contact-form-heading h3 {
+		font-size: 17px;
+		line-height: 27px;
+	}
 }
 /* contact-form-wrapper end here  */

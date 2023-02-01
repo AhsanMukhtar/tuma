@@ -1,7 +1,18 @@
 section.privacy-policy-sec {
-    padding: 80px 0;
+	padding: 80px 0;
 }
 p {
 	font-size: 14px !important;
 	font-family: "poppins_r";
+}
+@media (max-width: 768px) {
+	section.privacy-policy-sec {
+		padding: 50px 0;
+	}
+	.privacy-policy-sec .main_heading {
+		padding-bottom: 20px;
+	}
+	section.privacy-policy-sec p {
+		text-align: justify;
+	}
 }

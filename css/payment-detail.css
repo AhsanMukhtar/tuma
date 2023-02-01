@@ -921,6 +921,7 @@ section.product-detail .modal-body {
 }
 div#edittextmodal {
 	background: #666666;
+	padding-left: 17px !important;
 }
 @media (max-width: 1199px) {
 	.checkbox .left-btn13 button.btn13 {
@@ -1028,4 +1029,109 @@ span.num {
 }
 .qty-box span.minuss {
 	font-size: 19px;
+}
+@media (max-width: 991px) {
+	.openbtn {
+		margin-top: 30px;
+	}
+	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+		background-position: 500px 28px;
+	}
+}
+@media (max-width: 768px) {
+	button.btn-radio {
+		margin-left: -48px;
+		margin-top: 10px;
+	}
+	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+		background-position: 470px 28px;
+	}
+	.checkbox {
+		display: block;
+		padding-top: 20px;
+		margin: 30px 0px 30px 0px;
+	}
+	.left-btn13 {
+		text-align: center;
+	}
+	.left-btn13 button.btn13.tuma-btn {
+		width: 100%;
+	}
+	.detail-wrapper .shipping {
+		padding: 15px 20px 0;
+	}
+}
+
+@media (max-width: 575px) {
+	section.product-detail .modal-dialog {
+		max-width: 100%;
+		margin-top: 150px;
+	}
+	.thanks h4 {
+		font-size: 35px;
+		line-height: 45px;
+		margin-bottom: 10px;
+	}
+	.thanks p {
+		font-size: 14px;
+	}
+	.add-detail-btn {
+		width: 97%;
+	}
+	.detail-wrapper .shipping {
+		padding: 15px 0px 0 20px;
+	}
+	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+		background-position: 500px 28px;
+	}
+	.radio-wrapper .for-res {
+		margin-top: 25px;
+	}
+	.firstorder-item {
+		display: block;
+		text-align: center;
+	}
+	.firstorder-item .qty-box {
+		justify-content: center;
+		margin: 11px 0 0;
+	}
+	.firstorder-item .para-heading {
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	.shipping-detail h4 {
+		text-align: center;
+	}
+	.payment-heading {
+		display: block;
+		text-align: center;
+		padding-bottom: 10px;
+	}
+	.hading-wrapper.text-center {
+		margin: 30px 0 10px;
+	}
+	.hading-wrapper.text-center h2 {
+		font-size: 45px;
+		line-height: 45px;
+	}
+	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+		background-position: 465px 28px;
+	}
+	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+		background-position: 340px 28px;
+	}
+	.main-row {
+		justify-content: center;
+	}
+	.detail_information_information .btn-raio-main {
+		text-align: center;
+	}
+	button.btn-radio {
+		margin-left: 0;
+	}
+}
+@media (max-width: 480px) {
+	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+		background-position: 240px 80px;
+	}
 }
