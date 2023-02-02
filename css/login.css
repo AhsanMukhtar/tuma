@@ -1,87 +1,100 @@
 header#header {
     display: none;
 }
+
 footer {
     display: none;
 }
+
 .logincontent {
     padding: 0 6rem;
 }
+
 .modal-sec-img {
     position: relative;
     padding-left: 0;
 }
+
 .img-txt-content {
     position: absolute;
     top: 10px;
     left: 24px;
 }
+
 #loginForm .form-start .form-group input#inputName {
-/* background: url(../img/emailicon.svg) no-repeat; */
-background-position: 10px ;
-padding-left: 40px;
-font-family: "poppins_r";
+    /* background: url(../img/emailicon.svg) no-repeat; */
+    background-position: 10px;
+    padding-left: 40px;
+    font-family: "poppins_r";
 }
-#loginForm .form-start .form-group input#inputpass{
+
+#loginForm .form-start .form-group input#inputpass {
     /* background: url(../img/passwordicon.svg),url(../img/eyeicon.svg) ; */
-background-position: 10px,98% center ;
-padding-left: 40px;
-padding-right: 40px;
-background-repeat: no-repeat;
-font-family: "poppins_r";
+    background-position: 10px, 98% center;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-repeat: no-repeat;
+    font-family: "poppins_r";
 
 }
-#loginForm .form-start .form-group .form-control::placeholder{
+
+#loginForm .form-start .form-group .form-control::placeholder {
     color: #CFCCD2;
 }
- .heading2 {
+
+.heading2 {
     font-family: "bizantheum";
     font-size: 50px;
     color: #68482A;
 }
-.modal-heading 
- p.para1 {
+
+.modal-heading p.para1 {
     color: #666666;
     margin: 1rem 0;
     text-align: center;
 }
+
 #loginForm .form-group label.custom-check {
     font-family: "poppins_m";
     font-size: 13px;
     padding-left: 2rem;
 }
+
 #loginForm .contactus-form-btn a {
     color: #1F162C;
     font-family: 'poppins_r';
     font-size: 13px;
     text-decoration: underline;
 }
-#loginForm .contactus-form-btn{
+
+#loginForm .contactus-form-btn {
     text-align: right;
 }
+
 #loginForm .modal-sec-img img.img-fluid.leftimg {
     width: 100%;
     height: 100vh;
 }
+
 #loginForm .custom-check:hover input~.checkmark {
     background-color: #68482a;
-  }
-  
-  #loginForm .custom-check input:checked~.checkmark {
+}
+
+#loginForm .custom-check input:checked~.checkmark {
     background-color: #000000;
-  }
-  
-  #loginForm  .checkmark:after {
+}
+
+#loginForm .checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  #loginForm .custom-check input:checked~.checkmark:after {
+}
+
+#loginForm .custom-check input:checked~.checkmark:after {
     display: block;
-  }
-  
-  #loginForm .custom-check .checkmark:after {
+}
+
+#loginForm .custom-check .checkmark:after {
     left: 4px;
     top: 0px;
     width: 5px;
@@ -91,19 +104,20 @@ font-family: "poppins_r";
     -webkit-transform: rotate(45deg);
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
-  }
-  
-  #loginForm .contactus-form-btn {
+}
+
+#loginForm .contactus-form-btn {
     text-align: right;
-  }
-  
-  /* label.custom-check {
+}
+
+/* label.custom-check {
     font-size: 12px !important;
     top: 10px;
   } */
-  #loginForm .custom-check input:checked~.checkmark {
+#loginForm .custom-check input:checked~.checkmark {
     background-color: #68482a;
 }
+
 #loginForm .checkmark {
     position: absolute;
     top: 6px;
@@ -112,14 +126,17 @@ font-family: "poppins_r";
     width: 12px;
     background-color: #68482A;
 }
+
 #loginForm .form-group label.custom-check input[type="checkbox"] {
     position: absolute;
     opacity: 0;
     visibility: hidden;
 }
+
 #loginForm .form-group.formbtn {
     text-align: center;
 }
+
 #loginForm .dividers {
     display: flex;
     align-items: center;
@@ -135,6 +152,7 @@ font-family: "poppins_r";
     font-family: "poppins_r";
     font-size: 15px;
 }
+
 #loginForm .loginsocial {
     display: flex;
     align-items: center;
@@ -142,6 +160,7 @@ font-family: "poppins_r";
     gap: 10px;
     margin: 1rem 0;
 }
+
 #loginForm .loginsocial a {
     list-style: none;
     border-radius: 50%;
@@ -152,50 +171,62 @@ font-family: "poppins_r";
     justify-content: center;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
+
 #loginForm .loginsocial a i {
     color: #68482a;
 }
+
 #loginForm .signuptext {
     text-align: center;
     font-family: "poppins_r";
     font-size: 14px;
 }
+
 #loginForm .signuptext a.signUpBtn {
     color: #FD3E40;
 }
-#loginForm .form-start .form-group input#inputName ~ figure img.img-fluid.emailicon {
+
+#loginForm .form-start .form-group input#inputName~figure img.img-fluid.emailicon {
     position: absolute;
     left: 24px;
     top: 12px;
 }
-#loginForm .form-start .form-group input#inputpass ~ figure img.img-fluid.passicon {
+
+#loginForm .form-start .form-group input#inputpass~figure img.img-fluid.passicon {
     position: absolute;
     left: 12px;
     top: 12px;
 }
+
 #loginForm .formlogin {
     position: relative;
 }
-#loginForm .form-start .form-group input#inputpass ~ figure img.img-fluid.eyeicon {
+
+#loginForm .form-start .form-group input#inputpass~figure img.img-fluid.eyeicon {
     position: absolute;
     right: 12px;
     top: 12px;
 }
-#loginForm .input-group>.custom-file:focus,#loginForm .input-group>.custom-select:focus,#loginForm .input-group>.form-control:focus {
+
+#loginForm .input-group>.custom-file:focus,
+#loginForm .input-group>.custom-select:focus,
+#loginForm .input-group>.form-control:focus {
     z-index: unset;
 }
 
-#loginForm .form-start .form-group .form-control{
+#loginForm .form-start .form-group .form-control {
     border-radius: 0;
     padding-left: 40px;
     border: 1px solid #B8AFAF;
 }
+
 /* forget password css start here */
-.forgetpassword .form-start .form-group input#inputeName ~ figure img.img-fluid.emailicon {
+.forgetpassword .form-start .form-group input#inputeName~figure img.img-fluid.emailicon {
     position: absolute;
     left: 24px;
     top: 12px;
 }
+
 .forgetpassword .forgettext p {
     text-align: center;
     font-family: 'poppins_r';
@@ -205,51 +236,131 @@ font-family: "poppins_r";
     color: #1F162C;
     margin: 1rem 0 2rem;
 }
+
 /* forget password css end here */
 /* new password css start here */
-.newpassword .form-start .form-group input#inputnpass ~ figure img.img-fluid.passicon {
+.newpassword .form-start .form-group input#inputnpass~figure img.img-fluid.passicon {
     position: absolute;
     left: 12px;
     top: 12px;
 }
-.newpassword .form-start .form-group input#inputcpass ~ figure img.img-fluid.passicon {
+
+.newpassword .form-start .form-group input#inputcpass~figure img.img-fluid.passicon {
     position: absolute;
     left: 12px;
     top: 12px;
 }
-.newpassword .form-start .form-group input#inputnpass ~ figure img.img-fluid.eyeicon {
+
+.newpassword .form-start .form-group input#inputnpass~figure img.img-fluid.eyeicon {
     position: absolute;
     right: 12px;
     top: 12px;
 }
-.newpassword .form-start .form-group input#inputcpass ~ figure img.img-fluid.eyeicon {
+
+.newpassword .form-start .form-group input#inputcpass~figure img.img-fluid.eyeicon {
     position: absolute;
     right: 12px;
     top: 12px;
 }
-.newpassword .form-start .form-group .form-control{
+
+.newpassword .form-start .form-group .form-control {
     padding-left: 40px;
     padding-right: 40px;
 }
+
 section.newpassword .modal-sec-img {
     padding-left: 0;
     padding-right: 15px;
 }
+
 /* new password css end here */
-@media(min-width:1440px){
+@media(min-width:1440px) {
     .modal-sec-img img.img-fluid.leftimg {
         width: 100%;
         height: 100vh;
     }
 }
-@media(max-width:1440px){
+
+@media(max-width:1440px) {
     .modal-sec-img img.img-fluid.leftimg {
         width: 100%;
         height: 100vh;
     }
 }
-@media(max-width:1024px){
+
+@media(max-width:1024px) {
     .logincontent {
         padding: 0 4rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .forgetpassword .img-txt-content {
+        position: unset;
+        margin: 0px auto;
+    }
+
+    .forgetpassword {
+        padding: 20px 0 0px;
+    }
+
+    .forgetpassword .logincontent {
+        padding: 10px 20px;
+    }
+
+    .forgetpassword .forgettext p {
+        font-size: 12px;
+    }
+
+    .forgetpassword .forgettext p br {
+        display: none;
+    }
+
+    .forgetpassword .form-group.formbtn .btn {
+        width: 100%;
+    }
+
+    .modal-sec-img {
+        position: relative;
+        padding-left: 15px;
+    }
+
+    .modal-sec-img img.img-fluid.leftimg {
+        display: none;
+    }
+
+    .modal-sec-img .img-txt-content {
+        position: unset;
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .logincontent {
+        padding: 30px 1rem;
+    }
+
+    .logincontent .modal-heading h3 {
+        font-size: 35px;
+        line-height: 45px;
+    }
+}
+
+@media (max-width: 414px) {
+    #loginForm .contactus-form-btn a {
+        font-size: 10px;
+    }
+
+    .logincontent .modal-heading h3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    a.tuma-btn {
+        width: 100%;
+    }
+
+    #loginForm .form-group label.custom-check {
+        font-size: 11px;
+        padding-left: 1rem;
     }
 }

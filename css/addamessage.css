@@ -1,15 +1,18 @@
 .addamessage-sec {
 	text-align: center;
 }
+
 .addamessage_img figure img {
 	width: 100%;
 	height: 260px;
 	object-fit: cover;
 }
+
 .addamessage_img {
 	background: #f8f8f8;
 	padding: 1rem;
 }
+
 .messagebuttons {
 	display: flex;
 	flex-direction: column;
@@ -26,12 +29,15 @@
 	font-size: 13px;
 	cursor: pointer;
 }
+
 .messagebuttons button.messagebtn:focus {
 	outline: unset;
 }
+
 .largerimage {
 	display: none;
 }
+
 .messagebuttons a.messagebtn {
 	background: #f8f8f8;
 	border: 0;
@@ -42,25 +48,31 @@
 	font-size: 13px;
 	cursor: pointer;
 }
+
 .messagebuttons a.messagebtn:focus {
 	outline: unset;
 }
+
 .addamessage-sec {
 	text-align: center;
 	padding: 7rem 0;
 }
+
 section.addamessage_page .modal-dialog {
 	max-width: 80%;
 }
+
 .edittextm .modal-header h5 {
 	flex: 0 0 44%;
 	font-size: 35px;
 }
+
 .edittextm .form-group select.form-control {
 	font-family: "poppins_r";
 	font-size: 13px;
 	color: #a8a8a8;
 }
+
 .messagebuttons .messageimage {
 	background: #f8f8f8;
 	border: 0;
@@ -73,6 +85,7 @@ section.addamessage_page .modal-dialog {
 	height: 250px;
 	object-fit: cover;
 }
+
 section.addamessage_page .modal-header button.btn-close:after {
 	color: #68482a !important;
 }
@@ -82,12 +95,15 @@ section.addamessage_page .modal-header button.btn-close {
 	background: transparent;
 	color: #68482a;
 }
+
 section.addamessage_page .modal-header button.btn-close:focus {
 	outline: unset;
 }
+
 .modal-content {
 	background-color: #f8f8f8;
 }
+
 .giftphotobtns .form-group input {
 	padding: 0;
 	height: initial;
@@ -121,7 +137,7 @@ section.addamessage_page .modal-header button.btn-close:focus {
 	border-radius: 50%;
 }
 
-.giftphotobtns .form-group input:checked + label:after {
+.giftphotobtns .form-group input:checked+label:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -135,18 +151,22 @@ section.addamessage_page .modal-header button.btn-close:focus {
 	background: #68482a;
 	border-radius: 50%;
 }
+
 .giftphotocategory {
 	background: #fff;
 }
+
 .giftphotobtns {
 	border-top: 1px solid #68482a;
 	padding: 1rem;
 }
+
 .giftphotocategory h5.heading2 {
 	padding: 1rem;
 	text-align: center;
 	font-size: 40px;
 }
+
 .photo img {
 	width: 100%;
 }
@@ -168,6 +188,7 @@ button.btn-modal {
 	right: 18px;
 	top: 40px;
 }
+
 .form-group1 select {
 	background-color: #ffff;
 	color: #cfccd2;
@@ -185,6 +206,7 @@ button.btn-modal {
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 .form-group1::before {
 	content: "\f078";
 	font-family: "FontAwesome";
@@ -200,6 +222,7 @@ button.btn-modal {
 	background: var(--first-color);
 	color: #fff;
 }
+
 .form-group1 {
 	/* position: absolute; */
 	/* left: 50%; */
@@ -208,19 +231,25 @@ button.btn-modal {
 	position: relative;
 	outline: 12px solid #c4bcb4;
 }
+
 .select-modal {
 	padding: 30px 0px;
 }
+
 .modal-dialog1 {
 	margin-top: 270px;
 }
+
 div#edittextmodal {
 	background: #5b5b5b;
+	padding-left: 17px;
 }
+
 .box {
 	display: none;
 	margin-top: 60px;
 }
+
 .form-group-btn input {
 	width: 83%;
 	height: 50px;
@@ -234,16 +263,20 @@ div#edittextmodal {
 	font-weight: 400;
 	color: #a8a8a8;
 }
+
 .form-group-btn input:focus {
 	outline: none;
 }
+
 .form-group-btn {
 	display: none;
 	transition: 1s;
 }
+
 .slick-dots {
 	display: none;
 }
+
 .swiper {
 	width: 100%;
 }
@@ -268,6 +301,7 @@ section.addamessage_page .swiper-slide {
 	flex-direction: column;
 	gap: 30px;
 }
+
 .messagebuttons button.messagebtn input {
 	background: #f8f8f8;
 	border: 0;
@@ -287,18 +321,22 @@ section.addamessage_page .swiper-slide {
 	color: #a8a8a8;
 	font-size: 13px;
 }
+
 .messagebuttons button.messagebtn input:checked {
 	display: block;
 }
+
 section.addamessage_page .swiper-slide img:not(:last-child) {
 	margin-bottom: 10px;
 }
+
 section.addamessage_page .swiper-slide img {
 	display: block;
 	width: 100%;
 	height: 215px;
 	object-fit: cover;
 }
+
 section.addamessage_page .swiper-wrapper {
 	margin: 20px 0;
 }
@@ -312,9 +350,11 @@ section.addamessage_page .swiper-wrapper {
 	background-color: #fff;
 	border: 1px solid var(--first-color);
 }
+
 .rating-of-customer i {
 	color: #e19806;
 }
+
 .table-responsive .table td,
 .table th {
 	padding: 0.75rem;
@@ -323,6 +363,7 @@ section.addamessage_page .swiper-wrapper {
 	text-align: center;
 	padding: 10px 10px;
 }
+
 #buttonImage {
 	/* float: right; */
 	/* position: absolute; */
@@ -342,9 +383,11 @@ section.addamessage_page .swiper-wrapper {
 	background-color: #fff;
 	border: 1px solid var(--first-color);
 }
+
 .table-responsive .table td input[type="file"] {
 	display: none;
 }
+
 input#fakeInput {
 	width: 150%;
 	background-color: transparent;
@@ -360,33 +403,41 @@ input#fakeInput {
 	animation-delay: 10s;
 	white-space: nowrap;
 }
+
 .modal-body .table-responsive table.table tbody tr td:nth-child(1) i {
 	color: #68482a;
 	font-size: 18px;
 	padding: 6px 6px 0px 0px;
 }
+
 .modal-body .table-responsive table.table tbody tr td:nth-child(2) {
 	width: 306px;
 	overflow: hidden;
 	min-width: 306px;
 }
+
 .modal-body .table-responsive table.table tbody tr td:nth-child(3) {
 	min-width: 100px;
 }
+
 .modal-body .table-responsive table.table tbody tr td:nth-child(5) {
 	min-width: 130px;
 }
+
 .modal-body .table-responsive table.table tbody tr td {
 	vertical-align: middle;
 }
+
 .modal-body .table-responsive table.table tbody tr td p {
 	margin-bottom: 0;
 }
+
 /*  */
 .modal-open .modal {
 	overflow-x: hidden;
 	overflow-y: auto;
 }
+
 a.audio-shows {
 	color: #68482a;
 	/* margin-right: 10px; */
@@ -395,24 +446,83 @@ a.audio-shows {
 	font-weight: 500;
 	text-align: center;
 }
+
+@media (max-width: 1280px) {
+	#edittextmodal .modal-header {
+		display: block;
+		text-align: center;
+	}
+
+	#edittextmodal .modal-header button.btn-close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+
+	#selectaudio .modal-header {
+		text-align: center;
+		display: block;
+	}
+
+	#selectaudio .modal-header button.btn-modal {
+		position: unset;
+	}
+
+	#selectaudio .modal-header button.btn-close {
+		position: absolute;
+		top: 10px;
+		right: 10px;
+	}
+}
+
 @media (max-width: 991px) {
 	.selectaudiomodal .modal-header {
 		display: block;
 	}
+
 	.selectaudiomodal .modal-header h5 {
 		text-align: center;
 	}
+
 	.selectaudiomodal .modal-header button.btn-modal {
 		position: unset;
 		margin: 0px auto;
 		display: table;
 	}
+
 	.selectaudiomodal .modal-header figure {
 		text-align: center;
 	}
+
 	.selectaudiomodal .modal-header button.btn-close {
 		position: absolute;
 		top: 5px;
 		right: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.addamessage-sec {
+		padding: 3rem 0;
+	}
+
+	section.addamessage_page .modal-dialog {
+		max-width: 100%;
+	}
+}
+
+@media (max-width: 575px) {
+	.selectaudiomodal .modal-header h5 {
+		font-size: 30px;
+		line-height: 65px;
+	}
+
+	.heading2 {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	div#edittextmodal {
+		padding-left: 0px;
 	}
 }

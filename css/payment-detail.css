@@ -4,9 +4,11 @@
 	font-family: "bizantheum";
 	font-weight: 400;
 }
+
 .hading-wrapper.text-center {
 	margin: 69px 0;
 }
+
 div#accordion .card-header {
 	background: #ffff;
 	border: none;
@@ -14,6 +16,7 @@ div#accordion .card-header {
 	/* border-bottom: 3px solid #F9FCFF; */
 	padding: 0;
 }
+
 .card-body {
 	padding: 14px 14px !important;
 	border-left: 1px solid #7a7a7a;
@@ -60,6 +63,7 @@ div#accordion a.card-link {
 div#accordion a.card-link i {
 	color: #707070;
 }
+
 a.card-link[aria-expanded="true"] .fa-chevron-down::before {
 	content: "\f077";
 	font-size: 18px;
@@ -67,6 +71,7 @@ a.card-link[aria-expanded="true"] .fa-chevron-down::before {
 	/* padding: 2px 6px; */
 	font-family: "FontAwesome";
 }
+
 .card {
 	background-color: #ededef;
 }
@@ -79,30 +84,35 @@ a.card-link[aria-expanded="true"] .fa-chevron-down::before {
 	font-weight: 700;
 	color: #262626;
 }
+
 .payment-heading {
 	display: flex;
 	align-items: baseline;
 	justify-content: space-between;
 	border-bottom: 1px solid #b4b4b4;
 }
+
 .payment-heading p a {
 	color: #262626;
 	font-weight: 500;
 	font-size: 15px;
 	font-family: "montserrat";
 }
+
 .payment-heading p {
 	color: #262626;
 	font-weight: 400;
 	font-size: 15px;
 	font-family: "montserrat";
 }
+
 .shipping-heading-detail h4 {
 	color: #262626;
 	font-weight: 700;
 	font-size: 15px;
 	font-family: "montserrat";
 }
+
 div#accordion .card-header label {
 	width: 100%;
 	display: flex;
@@ -114,12 +124,14 @@ div#accordion .card-header label {
 	padding: 20px 10px;
 	margin: 0;
 }
+
 .john {
 	color: #262626;
 	font-weight: 700;
 	font-size: 15px;
 	font-family: "montserrat";
 }
+
 .john {
 	color: #262626;
 	font-weight: 500;
@@ -131,6 +143,7 @@ div#accordion .card-header label {
 	border-left: 1px solid #707070;
 	padding-left: 10px;
 }
+
 button.default {
 	border: none;
 	background: #0eb702;
@@ -145,28 +158,33 @@ button.default {
 div#accordion .card-header label input[name="occupation"] {
 	accent-color: #68482a;
 }
+
 .card-body p {
 	color: #b1b1b1;
 	font-size: 13px;
 	font-weight: 400;
 	font-family: "poppins";
 }
+
 .card-body p i {
 	color: #68482a;
 	font-size: 21px;
 	margin-right: 8px;
 }
+
 .card-body h4 {
 	color: #b1b1b1;
 	font-size: 15px;
 	font-weight: 400;
 	font-family: "poppins";
 }
+
 .card-body h4 i {
 	color: #68482a;
 	font-size: 21px;
 	margin-right: 8px;
 }
+
 .card-body h5 {
 	color: #b1b1b1;
 	font-size: 15px;
@@ -174,6 +192,7 @@ div#accordion .card-header label input[name="occupation"] {
 	font-family: "poppins";
 	margin-left: 25px;
 }
+
 button.default1 {
 	border: none;
 	background: #0eb702;
@@ -184,6 +203,7 @@ button.default1 {
 	font-family: "poppins";
 	font-weight: 500;
 }
+
 .btndefault {
 	width: 100%;
 	text-align: end;
@@ -198,6 +218,7 @@ button.default1 {
 	border-radius: 10px;
 	background: #fff;
 }
+
 .para-heading h5 {
 	margin: 0;
 	/* margin-top: 6px; */
@@ -206,17 +227,20 @@ button.default1 {
 	font-family: "poppins";
 	font-weight: 500;
 }
+
 .para-heading p {
 	color: #b1b1b1;
 	font-size: 15px;
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 .shipping-detail {
 	background: #f2f2f2;
 	padding: 27px 9px;
 	margin-top: 27px;
 }
+
 .rates h5 {
 	color: #1f162c;
 	font-size: 18px;
@@ -225,6 +249,7 @@ button.default1 {
 	margin: 19px 0 0 0;
 	text-align: end;
 }
+
 .pricerates h5 {
 	color: #1f162c;
 	font-size: 18px;
@@ -233,12 +258,14 @@ button.default1 {
 	/* margin: 19px 0 0 0; */
 	text-align: center;
 }
+
 .shipping h4 {
 	color: #000000;
 	font-size: 19px;
 	font-family: "poppins";
 	font-weight: 500;
 }
+
 .shipping-detail h4 {
 	color: #000000;
 	font-size: 20px;
@@ -246,16 +273,19 @@ button.default1 {
 	font-weight: 700;
 	margin-left: 0px;
 }
+
 .sweet-img-heading {
 	margin-top: 20px;
 	border-bottom: 1px solid #c7c7c7;
 }
+
 .total {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-top: 10px;
 }
+
 .total h4 {
 	color: #000000;
 	font-size: 20px;
@@ -263,6 +293,7 @@ button.default1 {
 	font-weight: 600;
 	margin-left: 0px;
 }
+
 .total-shipping h2 {
 	font-family: "bizantheum";
 	font-size: 30px;
@@ -270,20 +301,24 @@ button.default1 {
 	color: #000000;
 	margin: 0;
 }
+
 .total-delivery {
 	display: flex;
 	justify-content: center;
 	justify-content: space-between;
 }
+
 .total-delivery h4 {
 	color: #656565;
 	font-size: 17px;
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 .sweet-img-heading3 {
 	border-bottom: 1px solid #c7c7c7;
 }
+
 .inputWithIcon input {
 	width: 100%;
 	border: 1px solid #b8afaf;
@@ -295,12 +330,14 @@ button.default1 {
 	transition: 0.3s;
 	height: 48px;
 }
+
 .inputWithIcon input::placeholder {
 	font-size: 14px;
 	color: #cfccd2;
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 .inputWithIcon input:focus {
 	border-color: var(--first-color);
 	box-shadow: 0 0 8px 0 var(--first-color);
@@ -311,10 +348,12 @@ button.default1 {
 	margin-top: 0;
 	position: relative;
 }
+
 .inputWithIcon {
 	position: relative;
 	margin: 0px 0 17px 0px;
 }
+
 .inputWithIcon i {
 	position: absolute;
 	left: 6px;
@@ -324,6 +363,7 @@ button.default1 {
 	transition: 0.3s;
 	font-size: 22px;
 }
+
 .inputWithIcon img {
 	position: absolute;
 	left: 6px;
@@ -333,7 +373,8 @@ button.default1 {
 	transition: 0.3s;
 	font-size: 22px;
 }
-.inputWithIcon input:focus + i {
+
+.inputWithIcon input:focus+i {
 	color: var(--first-color);
 }
 
@@ -343,22 +384,26 @@ button.default1 {
 	padding: 9px 4px;
 	border-radius: 4px 0 0 4px;
 }
+
 .inputWithIcon textarea#exampleFormControlTextarea1 {
 	padding: 15px 39px;
 	resize: none;
 	height: 92px;
 	border: 1px solid #b8afaf;
 }
+
 .inputWithIcon textarea#exampleFormControlTextarea1::placeholder {
 	font-size: 14px;
 	color: #cfccd2;
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 .inputWithIcon textarea#exampleFormControlTextarea1:focus {
 	border-color: var(--first-color);
 	box-shadow: 0 0 8px 0 var(--first-color);
 }
+
 .btn1 {
 	border: 1px solid #b8afaf;
 	color: #fff;
@@ -371,6 +416,7 @@ button.default1 {
 	width: 28%;
 	background: var(--first-color);
 }
+
 .add-detail-btn {
 	border: none;
 	color: var(--first-color);
@@ -383,18 +429,22 @@ button.default1 {
 	background: #f2f2f2;
 	cursor: pointer;
 }
+
 .form-wrapper {
 	background: #f2f2f2;
 	padding: 20px 20px;
 	display: none;
 }
+
 .edit {
 	text-align: end;
 }
+
 .openbtn {
 	margin-top: 139px;
 	padding-bottom: 50px;
 }
+
 /* custom radio btn */
 
 .cutom_radio_btn[type="radio"]:checked,
@@ -403,8 +453,8 @@ button.default1 {
 	left: -9999px;
 }
 
-.cutom_radio_btn[type="radio"]:checked + label span.custom_radio,
-.cutom_radio_btn[type="radio"]:not(:checked) + label span.custom_radio {
+.cutom_radio_btn[type="radio"]:checked+label span.custom_radio,
+.cutom_radio_btn[type="radio"]:not(:checked)+label span.custom_radio {
 	position: relative;
 	padding-left: 0px;
 	cursor: pointer;
@@ -414,8 +464,8 @@ button.default1 {
 	top: 16px;
 }
 
-.cutom_radio_btn[type="radio"]:checked + label span.custom_radio:before,
-.cutom_radio_btn[type="radio"]:not(:checked) + label span.custom_radio:before {
+.cutom_radio_btn[type="radio"]:checked+label span.custom_radio:before,
+.cutom_radio_btn[type="radio"]:not(:checked)+label span.custom_radio:before {
 	content: "";
 	position: absolute;
 	left: 1px;
@@ -426,8 +476,9 @@ button.default1 {
 	border-radius: 100%;
 	background: #fff;
 }
-.cutom_radio_btn[type="radio"]:checked + label span.custom_radio:after,
-.cutom_radio_btn[type="radio"]:not(:checked) + label span.custom_radio:after {
+
+.cutom_radio_btn[type="radio"]:checked+label span.custom_radio:after,
+.cutom_radio_btn[type="radio"]:not(:checked)+label span.custom_radio:after {
 	content: "";
 	width: 10px;
 	height: 10px;
@@ -439,17 +490,19 @@ button.default1 {
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
-.cutom_radio_btn[type="radio"]:not(:checked) + label span.custom_radio:after {
+
+.cutom_radio_btn[type="radio"]:not(:checked)+label span.custom_radio:after {
 	opacity: 0;
 	-webkit-transform: scale(0);
 	transform: scale(0);
 }
 
-.cutom_radio_btn[type="radio"]:checked + label span.custom_radio:after {
+.cutom_radio_btn[type="radio"]:checked+label span.custom_radio:after {
 	opacity: 1;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
 .main-row {
 	margin-bottom: 1px;
 	display: flex;
@@ -464,6 +517,7 @@ button.btn-radio {
 	margin-left: -28px;
 	margin-top: 10;
 }
+
 button.btn-radio a {
 	color: #0d0d0d;
 	font-size: 15px;
@@ -476,41 +530,21 @@ button.btn-radio a {
 	margin-left: 30px;
 }
 
-.address_complete_section
-	.all_adresses
-	.single_address
-	.address_start
-	.detail_information_information
-	.custom_check_box
-	.for_the_label
-	span {
+.address_complete_section .all_adresses .single_address .address_start .detail_information_information .custom_check_box .for_the_label span {
 	color: #1f2c35;
 	font-size: 13px;
 	font-weight: 500;
 }
 
-.address_complete_section
-	.all_adresses
-	.single_address
-	.address_start
-	.detail_information_information
-	.custom_check_box
-	.for_the_label
-	span:not(:last-child) {
+.address_complete_section .all_adresses .single_address .address_start .detail_information_information .custom_check_box .for_the_label span:not(:last-child) {
 	padding-right: 10px;
 }
 
-.address_complete_section
-	.all_adresses
-	.single_address
-	.address_start
-	.detail_information_information
-	.custom_check_box
-	.for_the_label {
+.address_complete_section .all_adresses .single_address .address_start .detail_information_information .custom_check_box .for_the_label {
 	position: relative;
 }
 
-.cutom_radio_btn[type="radio"]:checked + label .address_start {
+.cutom_radio_btn[type="radio"]:checked+label .address_start {
 	padding: 10px 0px;
 	border: 2px solid #282828;
 	background-image: url(../img/tablearrow.webp);
@@ -518,6 +552,7 @@ button.btn-radio a {
 	background-position: right;
 	background-position: 593px 28px;
 }
+
 .address_complete_section .all_adresses .add_new_address button.btn {
 	text-transform: uppercase;
 	padding: 11px 31px;
@@ -529,37 +564,45 @@ button.btn-radio a {
 .address_complete_section .all_adresses .add_new_address {
 	padding-top: 23px;
 }
+
 .single_address label {
 	display: flex;
 	flex-direction: column;
 }
+
 .the_row {
 	display: flex;
 	flex-direction: column;
 }
+
 .img-wrapper img {
 	margin: 4px 19px 8px 0px;
 }
+
 span.question {
 	color: #000000;
 	font-size: 9px;
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 span.answer {
 	color: #656565;
 	font-size: 18px;
 	font-family: "poppins";
 	font-weight: 600;
 }
+
 .delete {
 	text-align: end;
 	margin: 4px 10px 0 0;
 }
+
 .delete i {
 	color: #ff0007;
 	font-size: 22px;
 }
+
 .address_start {
 	border: 2px solid #707070;
 }
@@ -569,9 +612,11 @@ span.answer {
 	padding: 10px 0px;
 	margin-bottom: 19px;
 }
+
 .left-btn13 {
 	text-align: end;
 }
+
 h4.detail {
 	font-family: "Poppins";
 	font-size: 20px;
@@ -579,10 +624,12 @@ h4.detail {
 	color: #000000;
 	margin: 19px 0;
 }
+
 .form-group12 label {
 	position: relative;
 	cursor: pointer;
 }
+
 .form-group12 label:before {
 	content: "";
 	-webkit-appearance: none;
@@ -597,10 +644,12 @@ h4.detail {
 	margin-bottom: 5px;
 	border-radius: 10px;
 }
+
 .form-group.check-wrapper {
 	display: none;
 }
-.form-group12 input:checked + label:after {
+
+.form-group12 input:checked+label:after {
 	content: "";
 	width: 9px;
 	height: 9px;
@@ -613,6 +662,7 @@ h4.detail {
 	-webkit-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 }
+
 .form-group12 input {
 	padding: 0;
 	height: initial;
@@ -626,6 +676,7 @@ h4.detail {
 	position: relative;
 	cursor: pointer;
 }
+
 .form-group1 select#exampleFormControlSelect1 {
 	height: 48px;
 	background-image: url(../img/selectarrow.webp);
@@ -638,6 +689,7 @@ h4.detail {
 	font-size: 15px;
 	font-family: "visby-med";
 }
+
 .inputWithIcon1 input {
 	width: 100%;
 	border: 1px solid #b8afaf;
@@ -649,12 +701,14 @@ h4.detail {
 	transition: 0.3s;
 	height: 47px;
 }
+
 .inputWithIcon1 input::placeholder {
 	font-size: 14px;
 	color: #cfccd2;
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 .inputWithIcon1 input:focus {
 	border-color: var(--first-color);
 	box-shadow: 0 0 8px 0 var(--first-color);
@@ -663,10 +717,12 @@ h4.detail {
 .inputWithIcon1 input {
 	padding-left: 17px;
 }
+
 .inputWithIcon1 {
 	position: relative;
 	margin: 0px 0 17px 0px;
 }
+
 .inputWithIcon1 i {
 	position: absolute;
 	left: 6px;
@@ -676,6 +732,7 @@ h4.detail {
 	transition: 0.3s;
 	font-size: 22px;
 }
+
 .inputWithIcon1 img {
 	position: absolute;
 	right: 6px;
@@ -687,7 +744,8 @@ h4.detail {
 	border: 2px solid #e8e8e8;
 	border-radius: 6px;
 }
-.inputWithIcon1 input:focus + i {
+
+.inputWithIcon1 input:focus+i {
 	color: var(--first-color);
 }
 
@@ -702,8 +760,10 @@ input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
 	/* display: none; <- Crashes Chrome on hover */
 	-webkit-appearance: none;
-	margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	margin: 0;
+	/* <-- Apparently some margin are still there even though it's hidden */
 }
+
 .img-wrapper1 img {
 	position: absolute;
 	right: 2px;
@@ -715,6 +775,7 @@ input::-webkit-inner-spin-button {
 	border: none;
 	border-radius: 6px;
 }
+
 .form-tabs.adderess-form h4 {
 	border-top: 2px solid #d8d8d8;
 	padding-top: 26px;
@@ -724,6 +785,7 @@ input::-webkit-inner-spin-button {
 	color: var(--first-color);
 	margin-bottom: 20px;
 }
+
 .form-group1 label {
 	color: #1f162c;
 	font-size: 15px;
@@ -747,6 +809,7 @@ select#exampleFormControlSelect1::before {
 	background-color: rgba(255, 255, 255, 0.1);
 	pointer-events: none;
 }
+
 select#exampleFormControlSelect1 {
 	border: none;
 	outline: none;
@@ -762,6 +825,7 @@ select#exampleFormControlSelect1 {
 	font-size: 14px;
 	color: #714bb9;
 }
+
 .box {
 	/* position: absolute; */
 	/* left: 50%; */
@@ -769,6 +833,7 @@ select#exampleFormControlSelect1 {
 	top: 9px;
 	position: relative;
 }
+
 .box select {
 	background-color: #ffff;
 	color: #cfccd2;
@@ -787,6 +852,7 @@ select#exampleFormControlSelect1 {
 	font-family: "poppins";
 	font-weight: 400;
 }
+
 .box::before {
 	content: "\f078";
 	font-family: "FontAwesome";
@@ -802,6 +868,7 @@ select#exampleFormControlSelect1 {
 	background: #f2f2f2;
 	color: #000000;
 }
+
 button.btn13 {
 	padding: 7px 32px;
 	border-radius: 0px;
@@ -817,13 +884,16 @@ button.btn13 {
 	cursor: pointer;
 	text-align: center;
 }
+
 .left-btn13 {
 	text-align: end;
 }
+
 .radio-wrapper {
 	border-top: 1px solid #b4b4b4;
 	padding-top: 12px;
 }
+
 .form-group-checkbox {
 	display: block;
 	margin-top: 20px;
@@ -861,7 +931,8 @@ button.btn13 {
 	margin-right: 5px;
 	top: -1px;
 }
-.form-group-checkbox input:checked + label:after {
+
+.form-group-checkbox input:checked+label:after {
 	content: "";
 	display: block;
 	position: absolute;
@@ -873,6 +944,7 @@ button.btn13 {
 	border-width: 0px 2px 2px 0px;
 	transform: rotate(45deg);
 }
+
 .form-group-checkbox label span {
 	color: #000000;
 	font-size: 17px;
@@ -880,6 +952,7 @@ button.btn13 {
 	margin-left: 5px;
 	font-family: "montserrat_r";
 }
+
 .checkbox {
 	display: flex;
 	align-items: center;
@@ -888,23 +961,29 @@ button.btn13 {
 	padding-top: 50px;
 	margin: 50px 0px 80px 0px;
 }
+
 section.product-detail .modal-dialog {
 	max-width: 70%;
 	margin-top: 300px;
 }
+
 section.product-detail .modal-header button.btn-close {
 	border: 0;
 	background: transparent;
 }
+
 .modal-content {
 	background-color: #f8f8f8;
 }
+
 .thanks {
 	text-align: center;
 }
+
 section.product-detail .modal-body {
 	padding: 40px 10px;
 }
+
 .thanks h4 {
 	font-family: "bizantheum";
 	font-size: 45px;
@@ -912,6 +991,7 @@ section.product-detail .modal-body {
 	margin-bottom: 30px;
 	color: var(--first-color);
 }
+
 .thanks p {
 	color: #6d6d6d;
 	font-family: "poppins";
@@ -919,15 +999,18 @@ section.product-detail .modal-body {
 	font-weight: 400;
 	margin-bottom: 21px;
 }
+
 div#edittextmodal {
 	background: #666666;
 	padding-left: 17px !important;
 }
+
 @media (max-width: 1199px) {
 	.checkbox .left-btn13 button.btn13 {
 		font-size: 12px;
 		padding: 14px 10px;
 	}
+
 	section.product-detail .form-group-checkbox label span {
 		color: #000000;
 		font-size: 14px;
@@ -935,17 +1018,20 @@ div#edittextmodal {
 		margin-left: 5px;
 		font-family: "montserrat_r";
 	}
+
 	.add-detail-btn {
 		width: 40%;
 		text-align: center;
 	}
 }
+
 /* changes */
 .firstorder-item {
 	display: flex;
 	justify-content: space-between;
 	/* align-items: center; */
 }
+
 .minus-box {
 	height: 50%;
 	background-color: white;
@@ -963,16 +1049,20 @@ div#edittextmodal {
 .numbers {
 	height: 25px;
 }
+
 span.num {
 	font-size: 14px;
 }
+
 .addition {
 	height: 100%;
 	/* background: #68482a; */
 }
+
 .qty-box span.plus {
 	font-size: 15px;
 }
+
 .minus,
 .plus {
 	display: inline-block;
@@ -986,6 +1076,7 @@ span.num {
 	align-items: center;
 	justify-content: center;
 }
+
 .qty-box span.minus {
 	font-size: 19px;
 }
@@ -999,6 +1090,7 @@ span.num {
 	justify-content: center;
 	background-color: white;
 }
+
 .qty-box {
 	/* zoom: 2; */
 	display: flex;
@@ -1006,14 +1098,17 @@ span.num {
 	height: 100%;
 	gap: 2px;
 }
+
 .qty-box .fa {
 	color: black;
 	font-size: 12px;
 }
+
 /* qty2 */
 .qty-box span.pluss {
 	font-size: 15px;
 }
+
 .minuss,
 .pluss {
 	display: inline-block;
@@ -1027,39 +1122,88 @@ span.num {
 	align-items: center;
 	justify-content: center;
 }
+
 .qty-box span.minuss {
 	font-size: 19px;
 }
+
 @media (max-width: 991px) {
 	.openbtn {
 		margin-top: 30px;
 	}
-	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+
+	.cutom_radio_btn[type="radio"]:checked+label .address_start {
 		background-position: 500px 28px;
 	}
 }
+
 @media (max-width: 768px) {
 	button.btn-radio {
 		margin-left: -48px;
 		margin-top: 10px;
 	}
-	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+
+	.cutom_radio_btn[type="radio"]:checked+label .address_start {
 		background-position: 470px 28px;
 	}
+
 	.checkbox {
 		display: block;
 		padding-top: 20px;
 		margin: 30px 0px 30px 0px;
 	}
+
 	.left-btn13 {
 		text-align: center;
 	}
+
 	.left-btn13 button.btn13.tuma-btn {
 		width: 100%;
 	}
+
 	.detail-wrapper .shipping {
 		padding: 15px 20px 0;
 	}
+
+	.payment-heading {
+		display: block;
+	}
+
+	.address-book h4 {
+		font-size: 15px;
+	}
+
+	.shipping-detail {
+		padding: 20px 10px;
+	}
+
+	.shipping-detail .firstorder-item {
+		display: block;
+		text-align: center;
+	}
+
+	.shipping-detail .firstorder-item .qty-box {
+		justify-content: center;
+		margin: 10px 0 0px;
+	}
+
+	.shipping-detail .firstorder-item .para-heading {
+		margin-top: 10px;
+	}
+
+	.shipping-detail .firstorder-item {
+		padding-bottom: 10px;
+	}
+
+	.shipping-detail h4 {
+		text-align: center;
+	}
+
+	.total-shipping h2 {
+		font-size: 22px;
+		line-height: 50px;
+	}
+
 }
 
 @media (max-width: 575px) {
@@ -1067,71 +1211,104 @@ span.num {
 		max-width: 100%;
 		margin-top: 150px;
 	}
+
 	.thanks h4 {
 		font-size: 35px;
 		line-height: 45px;
 		margin-bottom: 10px;
 	}
+
 	.thanks p {
 		font-size: 14px;
 	}
+
 	.add-detail-btn {
 		width: 97%;
 	}
+
 	.detail-wrapper .shipping {
 		padding: 15px 0px 0 20px;
 	}
-	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+
+	.cutom_radio_btn[type="radio"]:checked+label .address_start {
 		background-position: 500px 28px;
 	}
+
 	.radio-wrapper .for-res {
 		margin-top: 25px;
 	}
+
 	.firstorder-item {
 		display: block;
 		text-align: center;
 	}
+
 	.firstorder-item .qty-box {
 		justify-content: center;
 		margin: 11px 0 0;
 	}
+
 	.firstorder-item .para-heading {
 		margin-top: 10px;
 		margin-bottom: 10px;
 	}
+
 	.shipping-detail h4 {
 		text-align: center;
 	}
+
 	.payment-heading {
 		display: block;
 		text-align: center;
 		padding-bottom: 10px;
 	}
+
 	.hading-wrapper.text-center {
 		margin: 30px 0 10px;
 	}
+
 	.hading-wrapper.text-center h2 {
 		font-size: 45px;
 		line-height: 45px;
 	}
-	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+
+	.cutom_radio_btn[type="radio"]:checked+label .address_start {
 		background-position: 465px 28px;
 	}
-	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+
+	.cutom_radio_btn[type="radio"]:checked+label .address_start {
 		background-position: 340px 28px;
 	}
+
 	.main-row {
 		justify-content: center;
 	}
+
 	.detail_information_information .btn-raio-main {
 		text-align: center;
 	}
+
 	button.btn-radio {
 		margin-left: 0;
 	}
 }
+
 @media (max-width: 480px) {
-	.cutom_radio_btn[type="radio"]:checked + label .address_start {
+	.cutom_radio_btn[type="radio"]:checked+label .address_start {
 		background-position: 240px 80px;
+	}
+
+	.main-row {
+		padding: 0 30px;
+	}
+
+	.cutom_radio_btn[type="radio"]:checked+label span.custom_radio:before,
+	.cutom_radio_btn[type="radio"]:not(:checked)+label span.custom_radio:before {
+		left: -20px;
+	}
+
+	.cutom_radio_btn[type="radio"]:checked+label span.custom_radio:after,
+	.cutom_radio_btn[type="radio"]:not(:checked)+label span.custom_radio:after {
+		left: -16px;
 	}
 }
