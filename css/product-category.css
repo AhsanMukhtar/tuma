@@ -126,10 +126,20 @@ section.category-sec a:hover {
 }
 
 @media screen and (max-width: 580px) {
+	.category-cards .card-body .main_heading h2 {
+		line-height: 35px;
+		padding: 0;
+	}
+	.category-sec .main_heading {
+		padding-bottom: 0;
+	}
 	.category-tab .nav-tabs .nav-link {
 		font-size: 15px !important;
 		width: 100% !important;
 		padding: 7px 4px !important;
+	}
+	.price h6 {
+		font-size: 23px;
 	}
 }
 @media (max-width: 480px) {
