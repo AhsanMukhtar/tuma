@@ -124,7 +124,13 @@ section.category-sec a:hover {
 		width: 100%;
 	}
 }
-
+@media (max-width: 576px){
+	.category-img {
+		background-color: #68482a;
+		/* padding: 6px 6px; */
+		border: 5px solid #68482a;
+	}
+}
 @media screen and (max-width: 580px) {
 	.category-cards .card-body .main_heading h2 {
 		line-height: 35px;

@@ -574,9 +574,9 @@ ul.social-links.d-flex {
 		display: none;
 	}
 
-	.side-num .cart-box {
+	/* .side-num .cart-box {
 		display: none;
-	}
+	} */
 
 	.navbar-item-wrapper ul li {
 		padding: 0.5rem 0;
@@ -602,6 +602,12 @@ ul.social-links.d-flex {
 }
 
 @media (max-width: 575px) {
+	.menu-wrapper {
+		justify-content: start;
+	}
+	header#header .nav-item .col-lg-6 {
+		padding-left: 0px;
+	}
 	.side-num .fa {
 		font-size: 15px;
 		color: white;
@@ -969,7 +975,9 @@ li.home {
 	.footer-icons {
 		justify-content: center !important;
 	}
-
+	.side-num .cart-box img {
+		display: block;
+	}
 	.footer-copyright-links {
 		text-align: center;
 	}
