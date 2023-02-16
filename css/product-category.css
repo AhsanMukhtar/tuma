@@ -130,6 +130,21 @@ section.category-sec a:hover {
 		/* padding: 6px 6px; */
 		border: 5px solid #68482a;
 	}
+	.category-cards .card-body .main_heading h2 {
+		font-size: 16px !important;
+	}
+	
+	.price h6 {
+		font-size: 14px !important;
+	}
+	
+	.all-productinfo {
+		padding: 0px 2px;
+	}
+	
+	.add-category span {
+		font-size: 10px;
+	}
 }
 @media screen and (max-width: 580px) {
 	.category-cards .card-body .main_heading h2 {
